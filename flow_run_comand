@@ -1,0 +1,1 @@
+./flow.tcl -design /home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top -tag rv32i_macro_GDS_flow -overwrite

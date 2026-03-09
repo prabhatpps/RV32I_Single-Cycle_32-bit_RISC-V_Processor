@@ -80,7 +80,7 @@ module tb_alu;
     // VCD Dump (for GTKWave)
     //=============================================================
     initial begin
-        $dumpfile("tb_alu.vcd");
+        $dumpfile("Verification_Results/vcd/tb_alu.vcd");
         $dumpvars(0, tb_alu);
     end
 

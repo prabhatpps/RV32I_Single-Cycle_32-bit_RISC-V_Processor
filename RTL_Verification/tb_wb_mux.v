@@ -77,7 +77,7 @@ module tb_wb_mux;
     // VCD Dump (for GTKWave)
     //=============================================================
     initial begin
-        $dumpfile("tb_wb_mux.vcd");
+        $dumpfile("Verification_Results/vcd/tb_wb_mux.vcd");
         $dumpvars(0, tb_wb_mux);
     end
 

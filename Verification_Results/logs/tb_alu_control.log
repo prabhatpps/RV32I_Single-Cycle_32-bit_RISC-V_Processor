@@ -1,0 +1,368 @@
+VCD info: dumpfile Verification_Results/vcd/tb_alu_control.vcd opened for output.
+====================================================
+ ALU_CONTROL VERIFICATION STARTED — Author: Prabhat Pandey
+====================================================
+
+----------------------------------------------------------------
+TEST :                             ALUOp=00 default ADD (ignore funct fields)
+Inputs:
+   alu_op   = 00
+   funct3   = 111
+   funct7   = 1111111
+   funct7[5]= 1
+
+Expected:
+   alu_ctrl = 0000
+
+Got:
+   alu_ctrl = 0000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                 ALUOp=01 branch -> SUB
+Inputs:
+   alu_op   = 01
+   funct3   = 000
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0001
+
+Got:
+   alu_ctrl = 0001
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                R-type ADD (funct3=000, funct7=0000000)
+Inputs:
+   alu_op   = 10
+   funct3   = 000
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0000
+
+Got:
+   alu_ctrl = 0000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                R-type SUB (funct3=000, funct7=0100000)
+Inputs:
+   alu_op   = 10
+   funct3   = 000
+   funct7   = 0100000
+   funct7[5]= 1
+
+Expected:
+   alu_ctrl = 0001
+
+Got:
+   alu_ctrl = 0001
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                R-type AND (funct3=111)
+Inputs:
+   alu_op   = 10
+   funct3   = 111
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0010
+
+Got:
+   alu_ctrl = 0010
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                 R-type OR (funct3=110)
+Inputs:
+   alu_op   = 10
+   funct3   = 110
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0011
+
+Got:
+   alu_ctrl = 0011
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                R-type XOR (funct3=100)
+Inputs:
+   alu_op   = 10
+   funct3   = 100
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0100
+
+Got:
+   alu_ctrl = 0100
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                R-type SLT (funct3=010)
+Inputs:
+   alu_op   = 10
+   funct3   = 010
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0101
+
+Got:
+   alu_ctrl = 0101
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               R-type SLTU (funct3=011)
+Inputs:
+   alu_op   = 10
+   funct3   = 011
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0110
+
+Got:
+   alu_ctrl = 0110
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                R-type SLL (funct3=001)
+Inputs:
+   alu_op   = 10
+   funct3   = 001
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0111
+
+Got:
+   alu_ctrl = 0111
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                   R-type SRL (funct3=101, funct7[5]=0)
+Inputs:
+   alu_op   = 10
+   funct3   = 101
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 1000
+
+Got:
+   alu_ctrl = 1000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                   R-type SRA (funct3=101, funct7[5]=1)
+Inputs:
+   alu_op   = 10
+   funct3   = 101
+   funct7   = 0100000
+   funct7[5]= 1
+
+Expected:
+   alu_ctrl = 1001
+
+Got:
+   alu_ctrl = 1001
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               I-type ADDI (funct3=000)
+Inputs:
+   alu_op   = 11
+   funct3   = 000
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0000
+
+Got:
+   alu_ctrl = 0000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               I-type ANDI (funct3=111)
+Inputs:
+   alu_op   = 11
+   funct3   = 111
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0010
+
+Got:
+   alu_ctrl = 0010
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                I-type ORI (funct3=110)
+Inputs:
+   alu_op   = 11
+   funct3   = 110
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0011
+
+Got:
+   alu_ctrl = 0011
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               I-type XORI (funct3=100)
+Inputs:
+   alu_op   = 11
+   funct3   = 100
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0100
+
+Got:
+   alu_ctrl = 0100
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               I-type SLTI (funct3=010)
+Inputs:
+   alu_op   = 11
+   funct3   = 010
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0101
+
+Got:
+   alu_ctrl = 0101
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                              I-type SLTIU (funct3=011)
+Inputs:
+   alu_op   = 11
+   funct3   = 011
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0110
+
+Got:
+   alu_ctrl = 0110
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               I-type SLLI (funct3=001)
+Inputs:
+   alu_op   = 11
+   funct3   = 001
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 0111
+
+Got:
+   alu_ctrl = 0111
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                  I-type SRLI (funct3=101, funct7[5]=0)
+Inputs:
+   alu_op   = 11
+   funct3   = 101
+   funct7   = 0000000
+   funct7[5]= 0
+
+Expected:
+   alu_ctrl = 1000
+
+Got:
+   alu_ctrl = 1000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                  I-type SRAI (funct3=101, funct7[5]=1)
+Inputs:
+   alu_op   = 11
+   funct3   = 101
+   funct7   = 0100000
+   funct7[5]= 1
+
+Expected:
+   alu_ctrl = 1001
+
+Got:
+   alu_ctrl = 1001
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                   Default safety: unknown ALUOp -> ADD
+Inputs:
+   alu_op   = xx
+   funct3   = xxx
+   funct7   = xxxxxxx
+   funct7[5]= x
+
+Expected:
+   alu_ctrl = 0000
+
+Got:
+   alu_ctrl = 0000
+STATUS: PASS
+----------------------------------------------------------------
+
+====================================================
+ ALU_CONTROL VERIFICATION REPORT
+====================================================
+   Total Tests   : 22
+   Passed        : 22
+   Failed        : 0
+====================================================
+STATUS: ALL TESTS PASSED
+====================================================
+
+/home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/RTL_Verification/tb_alu_control.v:295: $finish called at 264000 (1ps)

@@ -84,7 +84,7 @@ module tb_pc_next_logic;
     // VCD Dump (for GTKWave)
     //=============================================================
     initial begin
-        $dumpfile("tb_pc_next_logic.vcd");
+        $dumpfile("Verification_Results/vcd/tb_pc_next_logic.vcd");
         $dumpvars(0, tb_pc_next_logic);
     end
 

@@ -1,0 +1,250 @@
+VCD info: dumpfile Verification_Results/vcd/tb_riscv32_singlecycle_top_program_1.vcd opened for output.
+====================================================
+ RV32 TOP (PROGRAM 1) VERIFICATION STARTED — Author: Prabhat Pandey
+====================================================
+
+WARNING: /home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/RTL_Verification/tb_riscv32_singlecycle_top_program_1.v:191: $readmemh(program_1.hex): Not enough words in the file for the requested range [0:4095].
+[Cycle 0] PC = 00000004 | instr = 00100093
+[Cycle 1] PC = 00000008 | instr = 00200113
+[Cycle 2] PC = 0000000c | instr = 00308193
+[Cycle 3] PC = 00000010 | instr = 00410213
+[Cycle 4] PC = 00000014 | instr = 00518293
+[Cycle 5] PC = 00000018 | instr = 00620313
+[Cycle 6] PC = 0000001c | instr = 00728393
+[Cycle 7] PC = 00000020 | instr = 00830413
+[Cycle 8] PC = 00000024 | instr = 00938493
+[Cycle 9] PC = 00000028 | instr = 00a40513
+[Cycle 10] PC = 0000002c | instr = 00b48593
+[Cycle 11] PC = 00000030 | instr = 00c50613
+[Cycle 12] PC = 00000034 | instr = 00d58693
+[Cycle 13] PC = 00000038 | instr = 00e60713
+[Cycle 14] PC = 0000003c | instr = 00f68793
+[Cycle 15] PC = 00000040 | instr = xxxxxxxx
+[Cycle 16] PC = 00000044 | instr = xxxxxxxx
+[Cycle 17] PC = 00000048 | instr = xxxxxxxx
+[Cycle 18] PC = 0000004c | instr = xxxxxxxx
+[Cycle 19] PC = 00000050 | instr = xxxxxxxx
+
+====================================================
+ CHECKING FINAL REGISTER STATE
+====================================================
+
+----------------------------------------------------------------
+TEST :                                          x0 must always be 0
+Inputs:
+   Register = x0
+
+Expected:
+   Value    = 00000000 (0)
+
+Got:
+   Value    = 00000000 (0)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                 x1 must be 1
+Inputs:
+   Register = x1
+
+Expected:
+   Value    = 00000001 (1)
+
+Got:
+   Value    = 00000001 (1)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                 x2 must be 2
+Inputs:
+   Register = x2
+
+Expected:
+   Value    = 00000002 (2)
+
+Got:
+   Value    = 00000002 (2)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                 x3 must be 4
+Inputs:
+   Register = x3
+
+Expected:
+   Value    = 00000004 (4)
+
+Got:
+   Value    = 00000004 (4)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                 x4 must be 6
+Inputs:
+   Register = x4
+
+Expected:
+   Value    = 00000006 (6)
+
+Got:
+   Value    = 00000006 (6)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                 x5 must be 9
+Inputs:
+   Register = x5
+
+Expected:
+   Value    = 00000009 (9)
+
+Got:
+   Value    = 00000009 (9)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                x6 must be 12
+Inputs:
+   Register = x6
+
+Expected:
+   Value    = 0000000c (12)
+
+Got:
+   Value    = 0000000c (12)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                x7 must be 16
+Inputs:
+   Register = x7
+
+Expected:
+   Value    = 00000010 (16)
+
+Got:
+   Value    = 00000010 (16)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                x8 must be 20
+Inputs:
+   Register = x8
+
+Expected:
+   Value    = 00000014 (20)
+
+Got:
+   Value    = 00000014 (20)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                x9 must be 25
+Inputs:
+   Register = x9
+
+Expected:
+   Value    = 00000019 (25)
+
+Got:
+   Value    = 00000019 (25)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               x10 must be 30
+Inputs:
+   Register = x10
+
+Expected:
+   Value    = 0000001e (30)
+
+Got:
+   Value    = 0000001e (30)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               x11 must be 36
+Inputs:
+   Register = x11
+
+Expected:
+   Value    = 00000024 (36)
+
+Got:
+   Value    = 00000024 (36)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               x12 must be 42
+Inputs:
+   Register = x12
+
+Expected:
+   Value    = 0000002a (42)
+
+Got:
+   Value    = 0000002a (42)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               x13 must be 49
+Inputs:
+   Register = x13
+
+Expected:
+   Value    = 00000031 (49)
+
+Got:
+   Value    = 00000031 (49)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               x14 must be 56
+Inputs:
+   Register = x14
+
+Expected:
+   Value    = 00000038 (56)
+
+Got:
+   Value    = 00000038 (56)
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               x15 must be 64
+Inputs:
+   Register = x15
+
+Expected:
+   Value    = 00000040 (64)
+
+Got:
+   Value    = 00000040 (64)
+STATUS: PASS
+----------------------------------------------------------------
+
+====================================================
+ RV32 TOP (PROGRAM 1) VERIFICATION REPORT
+====================================================
+   Total Tests   : 16
+   Passed        : 16
+   Failed        : 0
+====================================================
+STATUS: ALL TESTS PASSED
+====================================================
+
+/home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/RTL_Verification/tb_riscv32_singlecycle_top_program_1.v:274: $finish called at 232000 (1ps)

@@ -1,0 +1,129 @@
+VCD info: dumpfile Verification_Results/vcd/tb_imem_program_1.vcd opened for output.
+WARNING: /home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/RTL_Verification/tb_imem_program_1.v:163: $readmemh(program_1.hex): Not enough words in the file for the requested range [0:1023].
+====================================================
+ IMEM VERIFICATION STARTED — Author: Prabhat Pandey
+====================================================
+
+----------------------------------------------------------------
+TEST :                                 Fetch word 0 (PC=0x00000000)
+Inputs:
+   addr (byte) = 00000000
+   addr[31:2]  = 00000000
+
+Expected:
+   instr       = 00000013
+
+Got:
+   instr       = 00000013
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                 Fetch word 1 (PC=0x00000004)
+Inputs:
+   addr (byte) = 00000004
+   addr[31:2]  = 00000001
+
+Expected:
+   instr       = 00100093
+
+Got:
+   instr       = 00100093
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                 Fetch word 2 (PC=0x00000008)
+Inputs:
+   addr (byte) = 00000008
+   addr[31:2]  = 00000002
+
+Expected:
+   instr       = 00200113
+
+Got:
+   instr       = 00200113
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                 Fetch word 3 (PC=0x0000000C)
+Inputs:
+   addr (byte) = 0000000c
+   addr[31:2]  = 00000003
+
+Expected:
+   instr       = 00308193
+
+Got:
+   instr       = 00308193
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                 Fetch word 4 (PC=0x00000010)
+Inputs:
+   addr (byte) = 00000010
+   addr[31:2]  = 00000004
+
+Expected:
+   instr       = 00410213
+
+Got:
+   instr       = 00410213
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                   Unaligned addr test (0x00000005 -> word 1)
+Inputs:
+   addr (byte) = 00000005
+   addr[31:2]  = 00000001
+
+Expected:
+   instr       = 00100093
+
+Got:
+   instr       = 00100093
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                Fetch word 10 (PC=0x00000028)
+Inputs:
+   addr (byte) = 00000028
+   addr[31:2]  = 0000000a
+
+Expected:
+   instr       = 00a40513
+
+Got:
+   instr       = 00a40513
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                Fetch word 15 (PC=0x0000003C)
+Inputs:
+   addr (byte) = 0000003c
+   addr[31:2]  = 0000000f
+
+Expected:
+   instr       = 00f68793
+
+Got:
+   instr       = 00f68793
+STATUS: PASS
+----------------------------------------------------------------
+
+====================================================
+ IMEM VERIFICATION REPORT
+====================================================
+   Total Tests   : 8
+   Passed        : 8
+   Failed        : 0
+====================================================
+STATUS: ALL TESTS PASSED
+====================================================
+
+/home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/RTL_Verification/tb_imem_program_1.v:217: $finish called at 96000 (1ps)

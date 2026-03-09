@@ -68,7 +68,7 @@ module tb_imem_program_1;
     // VCD Dump (for GTKWave)
     //=============================================================
     initial begin
-        $dumpfile("tb_imem_program_1.vcd");
+        $dumpfile("Verification_Results/vcd/tb_imem_program_1.vcd");
         $dumpvars(0, tb_imem_program_1);
     end
 

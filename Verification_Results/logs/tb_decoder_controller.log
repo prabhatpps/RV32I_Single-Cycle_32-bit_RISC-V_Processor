@@ -1,0 +1,416 @@
+VCD info: dumpfile Verification_Results/vcd/tb_decoder_controller.vcd opened for output.
+====================================================
+ DECODER_CONTROLLER VERIFICATION STARTED — Author: Prabhat Pandey
+====================================================
+
+----------------------------------------------------------------
+TEST :                                            OP (R-type) control outputs
+Inputs:
+   opcode = 0110011
+   funct3 = 000
+   funct7 = 0000000
+
+    Expected:
+   reg_write       = 1
+   wb_sel          = 000
+
+   alu_src         = 0
+   alu_op          = 10
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+         Got:
+   reg_write       = 1
+   wb_sel          = 000
+
+   alu_src         = 0
+   alu_op          = 10
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                    OP-IMM (I-type ALU) control outputs
+Inputs:
+   opcode = 0010011
+   funct3 = 000
+   funct7 = 0000000
+
+    Expected:
+   reg_write       = 1
+   wb_sel          = 000
+
+   alu_src         = 1
+   alu_op          = 11
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+         Got:
+   reg_write       = 1
+   wb_sel          = 000
+
+   alu_src         = 1
+   alu_op          = 11
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                              LOAD (lw) control outputs
+Inputs:
+   opcode = 0000011
+   funct3 = 010
+   funct7 = 0000000
+
+    Expected:
+   reg_write       = 1
+   wb_sel          = 001
+
+   alu_src         = 1
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 1
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+         Got:
+   reg_write       = 1
+   wb_sel          = 001
+
+   alu_src         = 1
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 1
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                             STORE (sw) control outputs
+Inputs:
+   opcode = 0100011
+   funct3 = 010
+   funct7 = 0000000
+
+    Expected:
+   reg_write       = 0
+   wb_sel          = 000
+
+   alu_src         = 1
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 1
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+         Got:
+   reg_write       = 0
+   wb_sel          = 000
+
+   alu_src         = 1
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 1
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                 BRANCH control outputs
+Inputs:
+   opcode = 1100011
+   funct3 = 000
+   funct7 = 0000000
+
+    Expected:
+   reg_write       = 0
+   wb_sel          = 000
+
+   alu_src         = 0
+   alu_op          = 01
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 1
+   jump            = 0
+   jalr            = 0
+
+         Got:
+   reg_write       = 0
+   wb_sel          = 000
+
+   alu_src         = 0
+   alu_op          = 01
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 1
+   jump            = 0
+   jalr            = 0
+
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                    JAL control outputs
+Inputs:
+   opcode = 1101111
+   funct3 = 000
+   funct7 = 0000000
+
+    Expected:
+   reg_write       = 1
+   wb_sel          = 010
+
+   alu_src         = 0
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 1
+   jalr            = 0
+
+         Got:
+   reg_write       = 1
+   wb_sel          = 010
+
+   alu_src         = 0
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 1
+   jalr            = 0
+
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                   JALR control outputs
+Inputs:
+   opcode = 1100111
+   funct3 = 000
+   funct7 = 0000000
+
+    Expected:
+   reg_write       = 1
+   wb_sel          = 010
+
+   alu_src         = 1
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 1
+
+         Got:
+   reg_write       = 1
+   wb_sel          = 010
+
+   alu_src         = 1
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 1
+
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                    LUI control outputs
+Inputs:
+   opcode = 0110111
+   funct3 = 000
+   funct7 = 0000000
+
+    Expected:
+   reg_write       = 1
+   wb_sel          = 011
+
+   alu_src         = 0
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+         Got:
+   reg_write       = 1
+   wb_sel          = 011
+
+   alu_src         = 0
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                  AUIPC control outputs
+Inputs:
+   opcode = 0010111
+   funct3 = 000
+   funct7 = 0000000
+
+    Expected:
+   reg_write       = 1
+   wb_sel          = 100
+
+   alu_src         = 1
+   alu_op          = 00
+   use_pc_as_alu_a = 1
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+         Got:
+   reg_write       = 1
+   wb_sel          = 100
+
+   alu_src         = 1
+   alu_op          = 00
+   use_pc_as_alu_a = 1
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                             Unknown opcode -> safe defaults (NOP-like)
+Inputs:
+   opcode = 1111111
+   funct3 = 111
+   funct7 = 1111111
+
+    Expected:
+   reg_write       = 0
+   wb_sel          = 000
+
+   alu_src         = 0
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+         Got:
+   reg_write       = 0
+   wb_sel          = 000
+
+   alu_src         = 0
+   alu_op          = 00
+   use_pc_as_alu_a = 0
+
+   mem_read        = 0
+   mem_write       = 0
+
+   branch          = 0
+   jump            = 0
+   jalr            = 0
+
+STATUS: PASS
+----------------------------------------------------------------
+
+====================================================
+ DECODER_CONTROLLER VERIFICATION REPORT
+====================================================
+   Total Tests   : 10
+   Passed        : 10
+   Failed        : 0
+====================================================
+STATUS: ALL TESTS PASSED
+====================================================
+
+/home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/RTL_Verification/tb_decoder_controller.v:392: $finish called at 120000 (1ps)

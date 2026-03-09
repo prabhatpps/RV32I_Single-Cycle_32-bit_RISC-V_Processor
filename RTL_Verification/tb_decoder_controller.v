@@ -103,7 +103,7 @@ module tb_decoder_controller;
     // VCD Dump (for GTKWave)
     //=============================================================
     initial begin
-        $dumpfile("tb_decoder_controller.vcd");
+        $dumpfile("Verification_Results/vcd/tb_decoder_controller.vcd");
         $dumpvars(0, tb_decoder_controller);
     end
 

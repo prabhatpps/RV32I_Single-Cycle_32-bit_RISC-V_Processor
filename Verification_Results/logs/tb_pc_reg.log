@@ -1,0 +1,114 @@
+VCD info: dumpfile Verification_Results/vcd/tb_pc_reg.vcd opened for output.
+====================================================
+ PC_REG VERIFICATION STARTED — Author: Prabhat Pandey
+====================================================
+
+----------------------------------------------------------------
+TEST :                             RESET behavior (PC must go to 0)
+Inputs:
+   rst_n      = 0
+   pc_next    = deadbeef
+
+Expected:
+   pc_current = 00000000
+
+Got:
+   pc_current = 00000000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                            PC update basic (load 0x00000004)
+Inputs:
+   rst_n      = 1
+   pc_next    = 00000004
+
+Expected:
+   pc_current = 00000004
+
+Got:
+   pc_current = 00000004
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                          Sequential update (load 0x00000008)
+Inputs:
+   rst_n      = 1
+   pc_next    = 00000008
+
+Expected:
+   pc_current = 00000008
+
+Got:
+   pc_current = 00000008
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                          Sequential update (load 0x0000000C)
+Inputs:
+   rst_n      = 1
+   pc_next    = 0000000c
+
+Expected:
+   pc_current = 0000000c
+
+Got:
+   pc_current = 0000000c
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                             Large PC value (load 0x80000000)
+Inputs:
+   rst_n      = 1
+   pc_next    = 80000000
+
+Expected:
+   pc_current = 80000000
+
+Got:
+   pc_current = 80000000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                          Mid-run reset (PC must return to 0)
+Inputs:
+   rst_n      = 0
+   pc_next    = 12345678
+
+Expected:
+   pc_current = 00000000
+
+Got:
+   pc_current = 00000000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                          Post-reset update (load 0x00000100)
+Inputs:
+   rst_n      = 1
+   pc_next    = 00000100
+
+Expected:
+   pc_current = 00000100
+
+Got:
+   pc_current = 00000100
+STATUS: PASS
+----------------------------------------------------------------
+
+====================================================
+ PC_REG VERIFICATION REPORT
+====================================================
+   Total Tests   : 7
+   Passed        : 7
+   Failed        : 0
+====================================================
+STATUS: ALL TESTS PASSED
+====================================================
+
+/home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/RTL_Verification/tb_pc_reg.v:243: $finish called at 136000 (1ps)

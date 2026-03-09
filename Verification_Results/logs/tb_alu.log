@@ -1,0 +1,545 @@
+VCD info: dumpfile Verification_Results/vcd/tb_alu.vcd opened for output.
+====================================================
+ ALU VERIFICATION STARTED — Author: Prabhat Pandey
+====================================================
+
+----------------------------------------------------------------
+TEST :                                                    ADD basic
+Inputs:
+   A          = 00000005
+   B          = 00000007
+   ALUControl = 0000
+
+Expected:
+   Result     = 0000000c
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+
+Got:
+   Result     = 0000000c
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                     ADD wrap
+Inputs:
+   A          = ffffffff
+   B          = 00000001
+   ALUControl = 0000
+
+Expected:
+   Result     = 00000000
+   Carry      = 1
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+
+Got:
+   Result     = 00000000
+   Carry      = 1
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                          ADD signed overflow
+Inputs:
+   A          = 7fffffff
+   B          = 00000001
+   ALUControl = 0000
+
+Expected:
+   Result     = 80000000
+   Carry      = 0
+   OverFlow   = 1
+   Zero       = 0
+   Negative   = 1
+
+Got:
+   Result     = 80000000
+   Carry      = 0
+   OverFlow   = 1
+   Zero       = 0
+   Negative   = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                             ADD negative + negative overflow
+Inputs:
+   A          = 80000000
+   B          = 80000000
+   ALUControl = 0000
+
+Expected:
+   Result     = 00000000
+   Carry      = 1
+   OverFlow   = 1
+   Zero       = 1
+   Negative   = 0
+
+Got:
+   Result     = 00000000
+   Carry      = 1
+   OverFlow   = 1
+   Zero       = 1
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                    SUB basic
+Inputs:
+   A          = 00000014
+   B          = 00000007
+   ALUControl = 0001
+
+Expected:
+   Result     = 0000000d
+   Carry      = 1
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+
+Got:
+   Result     = 0000000d
+   Carry      = 1
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                          SUB negative result
+Inputs:
+   A          = 00000007
+   B          = 00000014
+   ALUControl = 0001
+
+Expected:
+   Result     = fffffff3
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 1
+
+Got:
+   Result     = fffffff3
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                          SUB signed overflow
+Inputs:
+   A          = 80000000
+   B          = 00000001
+   ALUControl = 0001
+
+Expected:
+   Result     = 7fffffff
+   Carry      = 1
+   OverFlow   = 1
+   Zero       = 0
+   Negative   = 0
+
+Got:
+   Result     = 7fffffff
+   Carry      = 1
+   OverFlow   = 1
+   Zero       = 0
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                     AND test
+Inputs:
+   A          = f0f0f0f0
+   B          = 0ff00ff0
+   ALUControl = 0010
+
+Expected:
+   Result     = 00f000f0
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+
+Got:
+   Result     = 00f000f0
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                      OR test
+Inputs:
+   A          = a5a5a5a5
+   B          = 0f0f0f0f
+   ALUControl = 0011
+
+Expected:
+   Result     = afafafaf
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 1
+
+Got:
+   Result     = afafafaf
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                     XOR test
+Inputs:
+   A          = aaaaaaaa
+   B          = 55555555
+   ALUControl = 0100
+
+Expected:
+   Result     = ffffffff
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 1
+
+Got:
+   Result     = ffffffff
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                   SLT -5 < 5
+Inputs:
+   A          = fffffffb
+   B          = 00000005
+   ALUControl = 0101
+
+Expected:
+   Result     = 00000001
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+
+Got:
+   Result     = 00000001
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                   SLT 5 < -5
+Inputs:
+   A          = 00000005
+   B          = fffffffb
+   ALUControl = 0101
+
+Expected:
+   Result     = 00000000
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+
+Got:
+   Result     = 00000000
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                         SLT min negative < 0
+Inputs:
+   A          = 80000000
+   B          = 00000000
+   ALUControl = 0101
+
+Expected:
+   Result     = 00000001
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+
+Got:
+   Result     = 00000001
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                 SLTU 1 < max
+Inputs:
+   A          = 00000001
+   B          = ffffffff
+   ALUControl = 0110
+
+Expected:
+   Result     = 00000001
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+
+Got:
+   Result     = 00000001
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                 SLTU max < 1
+Inputs:
+   A          = ffffffff
+   B          = 00000001
+   ALUControl = 0110
+
+Expected:
+   Result     = 00000000
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+
+Got:
+   Result     = 00000000
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                        SLTU unsigned compare
+Inputs:
+   A          = 80000000
+   B          = 7fffffff
+   ALUControl = 0110
+
+Expected:
+   Result     = 00000000
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+
+Got:
+   Result     = 00000000
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                     SLL 1<<5
+Inputs:
+   A          = 00000001
+   B          = 00000005
+   ALUControl = 0111
+
+Expected:
+   Result     = 00000020
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+
+Got:
+   Result     = 00000020
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                           SLL overflow shift
+Inputs:
+   A          = f0000000
+   B          = 00000004
+   ALUControl = 0111
+
+Expected:
+   Result     = 00000000
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+
+Got:
+   Result     = 00000000
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                            SRL logical right
+Inputs:
+   A          = 80000000
+   B          = 0000001f
+   ALUControl = 1000
+
+Expected:
+   Result     = 00000001
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+
+Got:
+   Result     = 00000001
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                    SRL shift
+Inputs:
+   A          = ffffffff
+   B          = 00000004
+   ALUControl = 1000
+
+Expected:
+   Result     = 0fffffff
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+
+Got:
+   Result     = 0fffffff
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               SRA arithmetic
+Inputs:
+   A          = ffffffff
+   B          = 00000004
+   ALUControl = 1001
+
+Expected:
+   Result     = ffffffff
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 1
+
+Got:
+   Result     = ffffffff
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                              SRA sign extend
+Inputs:
+   A          = 80000000
+   B          = 0000001f
+   ALUControl = 1001
+
+Expected:
+   Result     = ffffffff
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 1
+
+Got:
+   Result     = ffffffff
+   Carry      = 0
+   OverFlow   = 0
+   Zero       = 0
+   Negative   = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                               Zero flag test
+Inputs:
+   A          = 0000000a
+   B          = fffffff6
+   ALUControl = 0000
+
+Expected:
+   Result     = 00000000
+   Carry      = 1
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+
+Got:
+   Result     = 00000000
+   Carry      = 1
+   OverFlow   = 0
+   Zero       = 1
+   Negative   = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+====================================================
+ ALU VERIFICATION REPORT
+====================================================
+   Total Tests   : 23
+   Passed        : 23
+   Failed        : 0
+====================================================
+STATUS: ALL TESTS PASSED
+====================================================
+
+/home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/RTL_Verification/tb_alu.v:349: $finish called at 276000 (1ps)

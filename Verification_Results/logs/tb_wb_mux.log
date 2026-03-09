@@ -1,0 +1,124 @@
+VCD info: dumpfile Verification_Results/vcd/tb_wb_mux.vcd opened for output.
+====================================================
+ WB_MUX VERIFICATION STARTED — Author: Prabhat Pandey
+====================================================
+
+----------------------------------------------------------------
+TEST :                                               wb_sel=000 -> ALU result
+Inputs:
+   wb_sel      = 000
+   alu_result  = aaaaaaaa
+   mem_data    = bbbbbbbb
+   pc_plus4    = 00000044
+   u_imm       = 12345000
+   pc_plus_imm = 00001000
+
+Expected:
+   wb_data     = aaaaaaaa
+
+Got:
+   wb_data     = aaaaaaaa
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                              wb_sel=001 -> Memory data
+Inputs:
+   wb_sel      = 001
+   alu_result  = aaaaaaaa
+   mem_data    = bbbbbbbb
+   pc_plus4    = 00000044
+   u_imm       = 12345000
+   pc_plus_imm = 00001000
+
+Expected:
+   wb_data     = bbbbbbbb
+
+Got:
+   wb_data     = bbbbbbbb
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                     wb_sel=010 -> PC+4
+Inputs:
+   wb_sel      = 010
+   alu_result  = aaaaaaaa
+   mem_data    = bbbbbbbb
+   pc_plus4    = 00000044
+   u_imm       = 12345000
+   pc_plus_imm = 00001000
+
+Expected:
+   wb_data     = 00000044
+
+Got:
+   wb_data     = 00000044
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                        wb_sel=011 -> U-immediate (LUI)
+Inputs:
+   wb_sel      = 011
+   alu_result  = aaaaaaaa
+   mem_data    = bbbbbbbb
+   pc_plus4    = 00000044
+   u_imm       = 12345000
+   pc_plus_imm = 00001000
+
+Expected:
+   wb_data     = 12345000
+
+Got:
+   wb_data     = 12345000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                           wb_sel=100 -> PC+imm (AUIPC)
+Inputs:
+   wb_sel      = 100
+   alu_result  = aaaaaaaa
+   mem_data    = bbbbbbbb
+   pc_plus4    = 00000044
+   u_imm       = 12345000
+   pc_plus_imm = 00001000
+
+Expected:
+   wb_data     = 00001000
+
+Got:
+   wb_data     = 00001000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                    wb_sel invalid -> wb_data must be 0
+Inputs:
+   wb_sel      = 111
+   alu_result  = aaaaaaaa
+   mem_data    = bbbbbbbb
+   pc_plus4    = 00000044
+   u_imm       = 12345000
+   pc_plus_imm = 00001000
+
+Expected:
+   wb_data     = 00000000
+
+Got:
+   wb_data     = 00000000
+STATUS: PASS
+----------------------------------------------------------------
+
+====================================================
+ WB_MUX VERIFICATION REPORT
+====================================================
+   Total Tests   : 6
+   Passed        : 6
+   Failed        : 0
+====================================================
+STATUS: ALL TESTS PASSED
+====================================================
+
+/home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/RTL_Verification/tb_wb_mux.v:287: $finish called at 72000 (1ps)

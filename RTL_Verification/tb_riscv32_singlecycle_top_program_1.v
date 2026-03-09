@@ -101,7 +101,7 @@ module tb_riscv32_singlecycle_top_program_1;
     // VCD Dump (for GTKWave)
     //=============================================================
     initial begin
-        $dumpfile("tb_riscv32_singlecycle_top_program_1.vcd");
+        $dumpfile("Verification_Results/vcd/tb_riscv32_singlecycle_top_program_1.vcd");
         $dumpvars(0, tb_riscv32_singlecycle_top_program_1);
     end
 

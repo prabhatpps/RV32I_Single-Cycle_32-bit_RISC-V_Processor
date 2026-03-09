@@ -1,0 +1,115 @@
+VCD info: dumpfile Verification_Results/vcd/tb_dmem.vcd opened for output.
+====================================================
+ DMEM VERIFICATION STARTED — Author: Prabhat Pandey
+====================================================
+
+----------------------------------------------------------------
+TEST :                                      Initial read @ addr=0 should be 0
+Inputs:
+   mem_read   = 1
+   mem_write  = 0
+   addr       = 00000000
+   word_index = 0
+
+Expected:
+   read_data  = 00000000
+
+Got:
+   read_data  = 00000000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                   Write 0xDEADBEEF @ addr=0, read back
+Inputs:
+   mem_write  = 1
+   mem_read   = 1
+   addr       = 00000000
+   word_index = 0
+   write_data = deadbeef
+
+Expected:
+   read_data  = deadbeef
+
+Got:
+   read_data  = deadbeef
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                   Write 0x12345678 @ addr=4, read back
+Inputs:
+   mem_write  = 1
+   mem_read   = 1
+   addr       = 00000004
+   word_index = 1
+   write_data = 12345678
+
+Expected:
+   read_data  = 12345678
+
+Got:
+   read_data  = 12345678
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                 Read @ addr=0 must still be 0xDEADBEEF
+Inputs:
+   mem_read   = 1
+   mem_write  = 0
+   addr       = 00000000
+   word_index = 0
+
+Expected:
+   read_data  = deadbeef
+
+Got:
+   read_data  = deadbeef
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                     Write disabled (mem_write=0), addr=8 must remain 0
+Inputs:
+   mem_write  = 0
+   mem_read   = 1
+   addr       = 00000008
+   word_index = 2
+   write_data = aaaaaaaa
+
+Expected:
+   read_data  = 00000000
+
+Got:
+   read_data  = 00000000
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :          mem_read=0 must force read_data=0 (even if mem contains data)
+Inputs:
+   mem_read   = 0
+   mem_write  = 0
+   addr       = 00000000
+   word_index = 0
+
+Expected:
+   read_data  = 00000000
+
+Got:
+   read_data  = 00000000
+STATUS: PASS
+----------------------------------------------------------------
+
+====================================================
+ DMEM VERIFICATION REPORT
+====================================================
+   Total Tests   : 6
+   Passed        : 6
+   Failed        : 0
+====================================================
+STATUS: ALL TESTS PASSED
+====================================================
+
+/home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/RTL_Verification/tb_dmem.v:312: $finish called at 90000 (1ps)

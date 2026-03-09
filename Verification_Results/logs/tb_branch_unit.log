@@ -1,0 +1,356 @@
+VCD info: dumpfile Verification_Results/vcd/tb_branch_unit.vcd opened for output.
+====================================================
+ BRANCH_UNIT VERIFICATION STARTED — Author: Prabhat Pandey
+====================================================
+
+----------------------------------------------------------------
+TEST :                                                       BEQ true (equal)
+Inputs:
+   funct3      = 000
+   rs1_val     = 00000010
+   rs2_val     = 00000010
+   rs1 signed  = 16
+   rs2 signed  = 16
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                  BEQ false (not equal)
+Inputs:
+   funct3      = 000
+   rs1_val     = 00000010
+   rs2_val     = 00000011
+   rs1 signed  = 16
+   rs2 signed  = 17
+
+Expected:
+   take_branch = 0
+
+Got:
+   take_branch = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                   BNE true (not equal)
+Inputs:
+   funct3      = 001
+   rs1_val     = 00000010
+   rs2_val     = 00000011
+   rs1 signed  = 16
+   rs2 signed  = 17
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                                      BNE false (equal)
+Inputs:
+   funct3      = 001
+   rs1_val     = abcdef01
+   rs2_val     = abcdef01
+   rs1 signed  = -1412567295
+   rs2 signed  = -1412567295
+
+Expected:
+   take_branch = 0
+
+Got:
+   take_branch = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                              BLT signed: -5 < 5 (true)
+Inputs:
+   funct3      = 100
+   rs1_val     = fffffffb
+   rs2_val     = 00000005
+   rs1 signed  = -5
+   rs2 signed  = 5
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                             BLT signed: 5 < -5 (false)
+Inputs:
+   funct3      = 100
+   rs1_val     = 00000005
+   rs2_val     = fffffffb
+   rs1 signed  = 5
+   rs2 signed  = -5
+
+Expected:
+   take_branch = 0
+
+Got:
+   take_branch = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                            BLT signed: -10 < -5 (true)
+Inputs:
+   funct3      = 100
+   rs1_val     = fffffff6
+   rs2_val     = fffffffb
+   rs1 signed  = -10
+   rs2 signed  = -5
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                              BGE signed: 5 >= 5 (true)
+Inputs:
+   funct3      = 101
+   rs1_val     = 00000005
+   rs2_val     = 00000005
+   rs1 signed  = 5
+   rs2 signed  = 5
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                             BGE signed: 5 >= -5 (true)
+Inputs:
+   funct3      = 101
+   rs1_val     = 00000005
+   rs2_val     = fffffffb
+   rs1 signed  = 5
+   rs2 signed  = -5
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                            BGE signed: -5 >= 5 (false)
+Inputs:
+   funct3      = 101
+   rs1_val     = fffffffb
+   rs2_val     = 00000005
+   rs1 signed  = -5
+   rs2 signed  = 5
+
+Expected:
+   take_branch = 0
+
+Got:
+   take_branch = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                           BGE signed: -5 >= -10 (true)
+Inputs:
+   funct3      = 101
+   rs1_val     = fffffffb
+   rs2_val     = fffffff6
+   rs1 signed  = -5
+   rs2 signed  = -10
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                            BLTU unsigned: 1 < 2 (true)
+Inputs:
+   funct3      = 110
+   rs1_val     = 00000001
+   rs2_val     = 00000002
+   rs1 signed  = 1
+   rs2 signed  = 2
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                           BLTU unsigned: 2 < 1 (false)
+Inputs:
+   funct3      = 110
+   rs1_val     = 00000002
+   rs2_val     = 00000001
+   rs1 signed  = 2
+   rs2 signed  = 1
+
+Expected:
+   take_branch = 0
+
+Got:
+   take_branch = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                         BLTU unsigned: 0x80000000 < 0x7FFFFFFF (false)
+Inputs:
+   funct3      = 110
+   rs1_val     = 80000000
+   rs2_val     = 7fffffff
+   rs1 signed  = -2147483648
+   rs2 signed  = 2147483647
+
+Expected:
+   take_branch = 0
+
+Got:
+   take_branch = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                          BLTU unsigned: 0x7FFFFFFF < 0x80000000 (true)
+Inputs:
+   funct3      = 110
+   rs1_val     = 7fffffff
+   rs2_val     = 80000000
+   rs1 signed  = 2147483647
+   rs2 signed  = -2147483648
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                           BGEU unsigned: 5 >= 5 (true)
+Inputs:
+   funct3      = 111
+   rs1_val     = 00000005
+   rs2_val     = 00000005
+   rs1 signed  = 5
+   rs2 signed  = 5
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                          BGEU unsigned: 10 >= 5 (true)
+Inputs:
+   funct3      = 111
+   rs1_val     = 0000000a
+   rs2_val     = 00000005
+   rs1 signed  = 10
+   rs2 signed  = 5
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                         BGEU unsigned: 5 >= 10 (false)
+Inputs:
+   funct3      = 111
+   rs1_val     = 00000005
+   rs2_val     = 0000000a
+   rs1 signed  = 5
+   rs2 signed  = 10
+
+Expected:
+   take_branch = 0
+
+Got:
+   take_branch = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                         BGEU unsigned: 0x80000000 >= 0x7FFFFFFF (true)
+Inputs:
+   funct3      = 111
+   rs1_val     = 80000000
+   rs2_val     = 7fffffff
+   rs1 signed  = -2147483648
+   rs2 signed  = 2147483647
+
+Expected:
+   take_branch = 1
+
+Got:
+   take_branch = 1
+STATUS: PASS
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+TEST :                                Invalid funct3 -> take_branch must be 0
+Inputs:
+   funct3      = 010
+   rs1_val     = 00000001
+   rs2_val     = 00000001
+   rs1 signed  = 1
+   rs2 signed  = 1
+
+Expected:
+   take_branch = 0
+
+Got:
+   take_branch = 0
+STATUS: PASS
+----------------------------------------------------------------
+
+====================================================
+ BRANCH_UNIT VERIFICATION REPORT
+====================================================
+   Total Tests   : 20
+   Passed        : 20
+   Failed        : 0
+====================================================
+STATUS: ALL TESTS PASSED
+====================================================
+
+/home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/RTL_Verification/tb_branch_unit.v:267: $finish called at 240000 (1ps)

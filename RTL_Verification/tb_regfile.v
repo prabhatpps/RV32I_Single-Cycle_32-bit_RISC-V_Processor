@@ -77,7 +77,7 @@ module tb_regfile;
     // VCD Dump (for GTKWave)
     //=============================================================
     initial begin
-        $dumpfile("tb_regfile.vcd");
+        $dumpfile("Verification_Results/vcd/tb_regfile.vcd");
         $dumpvars(0, tb_regfile);
     end
 

@@ -72,7 +72,7 @@ module tb_imm_gen;
     // VCD Dump (for GTKWave)
     //=============================================================
     initial begin
-        $dumpfile("tb_imm_gen.vcd");
+        $dumpfile("Verification_Results/vcd/tb_imm_gen.vcd");
         $dumpvars(0, tb_imm_gen);
     end
 

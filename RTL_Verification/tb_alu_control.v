@@ -77,7 +77,7 @@ module tb_alu_control;
     // VCD Dump (for GTKWave)
     //=============================================================
     initial begin
-        $dumpfile("tb_alu_control.vcd");
+        $dumpfile("Verification_Results/vcd/tb_alu_control.vcd");
         $dumpvars(0, tb_alu_control);
     end
 

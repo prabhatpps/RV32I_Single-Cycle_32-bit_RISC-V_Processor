@@ -67,7 +67,7 @@ module tb_branch_unit;
     // VCD Dump (for GTKWave)
     //=============================================================
     initial begin
-        $dumpfile("tb_branch_unit.vcd");
+        $dumpfile("Verification_Results/vcd/tb_branch_unit.vcd");
         $dumpvars(0, tb_branch_unit);
     end
 

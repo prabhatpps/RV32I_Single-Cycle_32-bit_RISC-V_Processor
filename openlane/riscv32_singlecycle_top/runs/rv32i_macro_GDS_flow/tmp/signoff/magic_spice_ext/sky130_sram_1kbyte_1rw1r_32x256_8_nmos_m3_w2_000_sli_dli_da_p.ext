@@ -1,0 +1,36 @@
+timestamp 1773147551
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_11 sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_0 1 0 316 0 1 167
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_11 sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_1 1 0 212 0 1 167
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_11 sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_2 1 0 104 0 1 167
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_11 sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_3 1 0 0 0 1 167
+parameters sky130_fd_pr__special_nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+node "S_uq0" 0 0 220 167 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "S" 0 0 8 167 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D" 0 0 112 200 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_306_0#" 0 0 306 0 ndif 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_198_0#" 0 0 198 0 ndif 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_90_0#" 0 0 90 0 ndif 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_0_0#" 0 0 0 0 ndif 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "G" 0 0 60 -26 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+device msubckt sky130_fd_pr__nfet_01v8 276 0 277 1 l=30 w=400 "VSUBS" "G" 60 0 "a_198_0#" 400 15600,478 "a_306_0#" 400 24000,920
+device msubckt sky130_fd_pr__nfet_01v8 168 0 169 1 l=30 w=400 "VSUBS" "G" 60 0 "a_90_0#" 400 15600,478 "a_198_0#" 400 15600,478
+device msubckt sky130_fd_pr__nfet_01v8 60 0 61 1 l=30 w=400 "VSUBS" "G" 60 0 "a_0_0#" 400 24000,920 "a_90_0#" 400 15600,478
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_3/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_2/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_2/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_1/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_1/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_0/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_0/VSUBS" "VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_3/a_0_4#" "S" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "S" "a_0_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_1/a_0_4#" "S_uq0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "S_uq0" "a_198_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_2/a_0_4#" "a_90_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "a_90_0#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_0/a_0_4#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_11_0/a_0_4#" "D"
+merge "D" "a_306_0#"

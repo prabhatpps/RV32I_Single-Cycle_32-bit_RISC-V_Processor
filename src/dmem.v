@@ -53,23 +53,56 @@ module dmem #(
     output reg  [31:0] read_data         // Data loaded
 );
 
+`ifdef USE_SRAM_MACROS
+`ifdef SYNTHESIS
     //=================================================================
-    // Memory array (word-addressed)
+    // SRAM Macro Mapping (Synthesis/OpenLane path)
+    //=================================================================
+    // Map DMEM to one 256 x 32 OpenRAM macro.
+    //=================================================================
+`ifdef USE_POWER_PINS
+    supply1 macro_vccd1;
+    supply0 macro_vssd1;
+`endif
+    wire [31:0] dout0_sram;
+    wire        csb0_sram;
+    wire        web0_sram;
+
+    assign csb0_sram = ~(mem_read | mem_write); // active-low chip select
+    assign web0_sram = ~mem_write;              // active-low write enable
+
+    sky130_sram_1kbyte_1rw1r_32x256_8 u_sram (
+`ifdef USE_POWER_PINS
+        .vccd1  (macro_vccd1),
+        .vssd1  (macro_vssd1),
+`endif
+        .clk0   (clk),
+        .csb0   (csb0_sram),
+        .web0   (web0_sram),
+        .wmask0 (4'b1111),
+        .addr0  (addr[9:2]),
+        .din0   (write_data),
+        .dout0  (dout0_sram),
+        .clk1   (clk),
+        .csb1   (1'b1),
+        .addr1  (8'h00),
+        .dout1  ()
+    );
+
+    always @(*) begin
+        if (mem_read)
+            read_data = dout0_sram;
+        else
+            read_data = 32'h0000_0000;
+    end
+`else
+    //=================================================================
+    // Behavioral Memory Model (Simulation/RTL verification path)
     //=================================================================
     reg [31:0] mem [0:DEPTH-1];
-
-    //=================================================================
-    // Word index extraction
-    //=================================================================
-    // We assume aligned accesses, so addr[1:0] = 00.
-    // Use addr[31:2] for word indexing.
-    //=================================================================
     wire [31:0] word_index;
     assign word_index = addr >> 2;
 
-    //=================================================================
-    // Combinational read
-    //=================================================================
     always @(*) begin
         if (mem_read)
             read_data = mem[word_index];
@@ -77,12 +110,30 @@ module dmem #(
             read_data = 32'h0000_0000;
     end
 
-    //=================================================================
-    // Synchronous write (posedge)
-    //=================================================================
     always @(posedge clk) begin
         if (mem_write)
             mem[word_index] <= write_data;
     end
+`endif
+`else
+    //=================================================================
+    // Behavioral Memory Model (Simulation/RTL verification path)
+    //=================================================================
+    reg [31:0] mem [0:DEPTH-1];
+    wire [31:0] word_index;
+    assign word_index = addr >> 2;
+
+    always @(*) begin
+        if (mem_read)
+            read_data = mem[word_index];
+        else
+            read_data = 32'h0000_0000;
+    end
+
+    always @(posedge clk) begin
+        if (mem_write)
+            mem[word_index] <= write_data;
+    end
+`endif
 
 endmodule

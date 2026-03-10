@@ -1,0 +1,11 @@
+OpenROAD 41a51eaf4ca2171c92ff38afb91eb37bbd3f36da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Placing the following macros:
+{'u_imem.u_sram': ['160000', '1000000', 'N'], 'u_dmem.u_sram': ['800000', '1000000', 'N'], 'u_regfile.u_sram_rs1': ['160000', '500000', 'N'], 'u_regfile.u_sram_rs2': ['800000', '500000', 'N']}
+Design name: riscv32_singlecycle_top
+Placing u_dmem.u_sram
+Placing u_imem.u_sram
+Placing u_regfile.u_sram_rs1
+Placing u_regfile.u_sram_rs2
+Successfully placed 4 instances.

@@ -758,6 +758,69 @@ Point IMEM parameter to your new `program.hex` file and run simulation.
 
 ---
 
+## ASIC Flow (OpenLane + Sky130 + SRAM Macros)
+
+To reduce placement/routing congestion from inferred memories, the design now supports **SRAM macro mapping** for:
+- `imem` (256 x 32)
+- `dmem` (256 x 32)
+- `regfile` (implemented using two mirrored 1RW1R SRAM macros for 2R1W behavior)
+
+### Macro Used
+- `sky130_sram_1kbyte_1rw1r_32x256_8`
+
+### Important Implementation Detail
+- RTL verification path (default): keeps behavioral memories (same as before).
+- ASIC synthesis path: enabled by `USE_SRAM_MACROS` define and maps memories to SRAM macros.
+- Top module exposes synthesis-observability debug outputs:
+  - `dbg_pc_current`
+  - `dbg_instr`
+  - `dbg_wb_data`
+
+This is done in:
+- `src/imem.v`
+- `src/dmem.v`
+- `src/regfile.v`
+
+### Added ASIC/OpenLane Files
+- `src/sky130_sram_1kbyte_1rw1r_32x256_8.bb.v` (macro blackbox for synthesis)
+- `openlane/constraints/riscv32_singlecycle_top.sdc`
+- `openlane/riscv32_singlecycle_top/config.tcl`
+- `openlane/riscv32_singlecycle_top/macro_placement.cfg`
+- `openlane/riscv32_singlecycle_top/sky130A_setup_macros.tcl`
+- `openlane/riscv32_singlecycle_top/interactive_flow.tcl`
+
+### Run iverilog Verification
+```bash
+cd /home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor
+make all
+```
+
+### Macro-Synthesis Sanity Check (iverilog compile)
+```bash
+iverilog -g2012 -DSYNTHESIS -DUSE_SRAM_MACROS -o /tmp/rv32i_macro_synth_check src/*.v
+```
+
+### Run OpenLane (from your installation path)
+```bash
+cd /home/prabhat/OpenLane
+./flow.tcl -interactive \
+  -file /home/prabhat/Work_Fedora/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/interactive_flow.tcl
+```
+
+### Notes for PDK Macro Views
+`config.tcl` expects macro LEF/GDS/LIB at:
+- `$PDK_ROOT/$PDK/libs.ref/sky130_sram_macros/...`
+
+If your setup uses a different Sky130 root, update those paths in:
+- `openlane/riscv32_singlecycle_top/config.tcl`
+- `openlane/riscv32_singlecycle_top/sky130A_setup_macros.tcl`
+
+### Final Layout
+
+![Final Layout](./layout.png)
+
+---
+
 ## Limitations
 
 ### Not Implemented

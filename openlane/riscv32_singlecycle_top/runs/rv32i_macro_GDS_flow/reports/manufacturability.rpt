@@ -1,0 +1,18 @@
+Design Name: riscv32_singlecycle_top
+Run Directory: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/runs/rv32i_macro_GDS_flow
+----------------------------------------
+
+Magic DRC Summary:
+Source: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/runs/rv32i_macro_GDS_flow/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/runs/rv32i_macro_GDS_flow/logs/signoff/riscv32_singlecycle_top.lef.lvs.log
+Source not found.
+----------------------------------------
+
+Antenna Summary:
+Source: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/runs/rv32i_macro_GDS_flow/logs/signoff/38-arc.log
+Pin violations: 56
+Net violations: 54

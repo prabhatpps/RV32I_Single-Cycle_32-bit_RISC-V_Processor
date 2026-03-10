@@ -37,11 +37,18 @@
 //=====================================================================
 
 module riscv32_singlecycle_top #(
+`ifdef USE_SRAM_MACROS
+    parameter IMEM_DEPTH_WORDS = 256,
+`else
     parameter IMEM_DEPTH_WORDS = 4096,
+`endif
     parameter DMEM_DEPTH_WORDS = 256
 )(
     input  wire clk,
-    input  wire rst_n
+    input  wire rst_n,
+    output wire [31:0] dbg_pc_current,
+    output wire [31:0] dbg_instr,
+    output wire [31:0] dbg_wb_data
 );
 
     //=============================================================
@@ -65,6 +72,9 @@ module riscv32_singlecycle_top #(
     imem #(
         .MEM_DEPTH_WORDS(IMEM_DEPTH_WORDS)
     ) u_imem (
+`ifdef USE_SRAM_MACROS
+        .clk   (clk),
+`endif
         .addr  (pc_current),
         .instr (instr)
     );
@@ -281,5 +291,10 @@ module riscv32_singlecycle_top #(
         .pc_plus_imm (pc_plus_imm_u),
         .wb_data     (wb_data)
     );
+
+    // Debug observability ports for ASIC synthesis/signoff flow.
+    assign dbg_pc_current = pc_current;
+    assign dbg_instr      = instr;
+    assign dbg_wb_data    = wb_data;
 
 endmodule

@@ -1,0 +1,894 @@
+prabhat@fedora:~$ pwd
+/home/prabhat
+prabhat@fedora:~$ tree -L 3 .ciel/sky130A/
+.ciel/sky130A/
+├── libs.ref
+│   ├── sky130_fd_io
+│   │   ├── cdl
+│   │   ├── gds
+│   │   ├── lef
+│   │   ├── lib
+│   │   ├── mag
+│   │   ├── maglef
+│   │   ├── spice
+│   │   └── verilog
+│   ├── sky130_fd_pr
+│   │   ├── gds
+│   │   ├── lef
+│   │   ├── mag
+│   │   ├── maglef
+│   │   └── spice
+│   ├── sky130_fd_sc_hd
+│   │   ├── cdl
+│   │   ├── gds
+│   │   ├── lef
+│   │   ├── lib
+│   │   ├── mag
+│   │   ├── maglef
+│   │   ├── spice
+│   │   ├── techlef
+│   │   └── verilog
+│   ├── sky130_fd_sc_hvl
+│   │   ├── cdl
+│   │   ├── gds
+│   │   ├── lef
+│   │   ├── lib
+│   │   ├── mag
+│   │   ├── maglef
+│   │   ├── spice
+│   │   ├── techlef
+│   │   └── verilog
+│   ├── sky130_ml_xx_hd
+│   │   ├── mag
+│   │   └── scripts
+│   └── sky130_sram_macros
+│       ├── gds
+│       ├── lef
+│       ├── lib
+│       ├── mag
+│       ├── maglef
+│       ├── spice
+│       └── verilog
+├── libs.tech
+│   ├── combined
+│   │   ├── continuous
+│   │   ├── corners
+│   │   ├── parameters
+│   │   ├── README
+│   │   ├── rescap
+│   │   ├── sky130.lib.spice
+│   │   ├── sonos
+│   │   ├── sonos_e
+│   │   ├── sonos_p
+│   │   ├── sonos_see
+│   │   ├── sonos_see_e
+│   │   ├── sonos_see_p
+│   │   ├── spinit
+│   │   └── test
+│   ├── irsim
+│   │   ├── sky130A_ff_high_125.prm
+│   │   ├── sky130A_ff_high_27.prm
+│   │   ├── sky130A_ff_high_n40.prm
+│   │   ├── sky130A_ff_low_125.prm
+│   │   ├── sky130A_ff_low_27.prm
+│   │   ├── sky130A_ff_low_n40.prm
+│   │   ├── sky130A_ff_nom_125.prm
+│   │   ├── sky130A_ff_nom_27.prm
+│   │   ├── sky130A_ff_nom_n40.prm
+│   │   ├── sky130A_ss_high_125.prm
+│   │   ├── sky130A_ss_high_27.prm
+│   │   ├── sky130A_ss_high_n40.prm
+│   │   ├── sky130A_ss_low_125.prm
+│   │   ├── sky130A_ss_low_27.prm
+│   │   ├── sky130A_ss_low_n40.prm
+│   │   ├── sky130A_ss_nom_125.prm
+│   │   ├── sky130A_ss_nom_27.prm
+│   │   ├── sky130A_ss_nom_n40.prm
+│   │   ├── sky130A_tt_high_125.prm
+│   │   ├── sky130A_tt_high_27.prm
+│   │   ├── sky130A_tt_high_n40.prm
+│   │   ├── sky130A_tt_low_125.prm
+│   │   ├── sky130A_tt_low_27.prm
+│   │   ├── sky130A_tt_low_n40.prm
+│   │   ├── sky130A_tt_nom_125.prm
+│   │   ├── sky130A_tt_nom_27.prm
+│   │   └── sky130A_tt_nom_n40.prm
+│   ├── klayout
+│   │   ├── drc
+│   │   ├── lvs
+│   │   ├── pymacros
+│   │   └── tech
+│   ├── magic
+│   │   ├── bump_bond_generator
+│   │   ├── check_antenna.py
+│   │   ├── check_density.py
+│   │   ├── generate_fill.py
+│   │   ├── run_standard_drc.py
+│   │   ├── seal_ring_generator
+│   │   ├── sky130A-BindKeys
+│   │   ├── sky130A-GDS.tech
+│   │   ├── sky130A.magicrc
+│   │   ├── sky130A.tcl
+│   │   └── sky130A.tech
+│   ├── netgen
+│   │   ├── setup.tcl
+│   │   └── sky130A_setup.tcl
+│   ├── ngspice
+│   │   ├── all.spice
+│   │   ├── capacitors
+│   │   ├── corners
+│   │   ├── correl1.spice
+│   │   ├── correl2.spice
+│   │   ├── correl3.spice
+│   │   ├── correl4.spice
+│   │   ├── custom.spice
+│   │   ├── head.spice
+│   │   ├── parameters
+│   │   ├── parasitics
+│   │   ├── r+c
+│   │   ├── r+c.mrp1monte.spice
+│   │   ├── sky130_fd_pr__model__diode_pd2nw_11v0.model.spice
+│   │   ├── sky130_fd_pr__model__diode_pw2nd_11v0.model.spice
+│   │   ├── sky130_fd_pr__model__inductors.model.spice
+│   │   ├── sky130_fd_pr__model__linear.model.spice
+│   │   ├── sky130_fd_pr__model__r+c.model.spice
+│   │   ├── sky130.lib.spice
+│   │   ├── sonos
+│   │   ├── sonos_e
+│   │   ├── sonos_p
+│   │   ├── sonos_see
+│   │   ├── sonos_see_e
+│   │   ├── sonos_see_p
+│   │   └── spinit
+│   ├── openlane
+│   │   ├── config.tcl
+│   │   ├── custom_cells
+│   │   ├── cvc
+│   │   ├── rules.openrcx.sky130A.max.calibre
+│   │   ├── rules.openrcx.sky130A.max.magic
+│   │   ├── rules.openrcx.sky130A.max.spef_extractor
+│   │   ├── rules.openrcx.sky130A.min.calibre
+│   │   ├── rules.openrcx.sky130A.min.magic
+│   │   ├── rules.openrcx.sky130A.min.spef_extractor
+│   │   ├── rules.openrcx.sky130A.nom.calibre
+│   │   ├── rules.openrcx.sky130A.nom.magic
+│   │   ├── rules.openrcx.sky130A.nom.spef_extractor
+│   │   ├── sky130_fd_sc_hd
+│   │   ├── sky130_fd_sc_hdll
+│   │   ├── sky130_fd_sc_hs
+│   │   ├── sky130_fd_sc_hvl
+│   │   ├── sky130_fd_sc_ls
+│   │   ├── sky130_fd_sc_ms
+│   │   └── sky130_osu_sc_t18
+│   ├── qflow
+│   │   ├── sky130_fd_sc_hdll.par
+│   │   ├── sky130_fd_sc_hdll.sh
+│   │   ├── sky130_fd_sc_hd.par
+│   │   ├── sky130_fd_sc_hd.sh
+│   │   ├── sky130_fd_sc_hs.par
+│   │   ├── sky130_fd_sc_hs.sh
+│   │   ├── sky130_fd_sc_hvl.par
+│   │   ├── sky130_fd_sc_hvl.sh
+│   │   ├── sky130_fd_sc_lp.par
+│   │   ├── sky130_fd_sc_lp.sh
+│   │   ├── sky130_fd_sc_ls.par
+│   │   ├── sky130_fd_sc_ls.sh
+│   │   ├── sky130_fd_sc_ms.par
+│   │   ├── sky130_fd_sc_ms.sh
+│   │   ├── sky130_osu_sc_12t_hs.par
+│   │   ├── sky130_osu_sc_12t_hs.sh
+│   │   ├── sky130_osu_sc_12t_ls.par
+│   │   ├── sky130_osu_sc_12t_ls.sh
+│   │   ├── sky130_osu_sc_12t_ms.par
+│   │   ├── sky130_osu_sc_12t_ms.sh
+│   │   ├── sky130_osu_sc_15t_hs.par
+│   │   ├── sky130_osu_sc_15t_hs.sh
+│   │   ├── sky130_osu_sc_15t_ls.par
+│   │   ├── sky130_osu_sc_15t_ls.sh
+│   │   ├── sky130_osu_sc_15t_ms.par
+│   │   ├── sky130_osu_sc_15t_ms.sh
+│   │   ├── sky130_osu_sc_18t_hs.par
+│   │   ├── sky130_osu_sc_18t_hs.sh
+│   │   ├── sky130_osu_sc_18t_ls.par
+│   │   ├── sky130_osu_sc_18t_ls.sh
+│   │   ├── sky130_osu_sc_18t_ms.par
+│   │   └── sky130_osu_sc_18t_ms.sh
+│   ├── xcircuit
+│   │   ├── ngspice.lps
+│   │   ├── sky130A.xcircuitrc
+│   │   ├── sky130_fd_pr.lps
+│   │   └── sky130_fd_sc_hd.lps
+│   └── xschem
+│       ├── LICENSE
+│       ├── mips_cpu
+│       ├── README.md
+│       ├── scripts
+│       ├── sky130_fd_pr
+│       ├── sky130_fd_pr.patch
+│       ├── sky130_stdcells
+│       ├── sky130_tests
+│       ├── stdcells
+│       ├── xschemrc
+│       └── xschem_verilog_import
+└── SOURCES
+
+103 directories, 107 files
+prabhat@fedora:~$ 
+
+
+prabhat@fedora:~$ tree -L 3 .ciel/sky130A/libs.ref/sky130_sram_macros/
+.ciel/sky130A/libs.ref/sky130_sram_macros/
+├── gds
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8.gds
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8.gds
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8.gds
+│   └── sram_1rw1r_32_256_8_sky130.gds
+├── lef
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8.lef
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8.lef
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8.lef
+│   └── sram_1rw1r_32_256_8_sky130.lef
+├── lib
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_TT_1p8V_25C.lib
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib
+│   ├── sram_1rw1r_32_256_8_sky130_FF_1p8V_25C.lib
+│   ├── sram_1rw1r_32_256_8_sky130_SS_1p8V_25C.lib
+│   ├── sram_1rw1r_32_256_8_sky130_TT_1p7V_25C.lib
+│   ├── sram_1rw1r_32_256_8_sky130_TT_1p8V_0C.lib
+│   ├── sram_1rw1r_32_256_8_sky130_TT_1p8V_100C.lib
+│   ├── sram_1rw1r_32_256_8_sky130_TT_1p8V_25C.lib
+│   └── sram_1rw1r_32_256_8_sky130_TT_1p9V_25C.lib
+├── mag
+│   ├── and2_dec.mag
+│   ├── and3_dec.mag
+│   ├── bank.mag
+│   ├── bitcell_array.mag
+│   ├── col_addr_dff.mag
+│   ├── col_cap_array.mag
+│   ├── contact_11.mag
+│   ├── contact_12.mag
+│   ├── contact_13.mag
+│   ├── contact_14.mag
+│   ├── contact_15.mag
+│   ├── contact_16.mag
+│   ├── contact_17.mag
+│   ├── contact_18.mag
+│   ├── contact_19.mag
+│   ├── contact_20.mag
+│   ├── contact_21.mag
+│   ├── contact_22.mag
+│   ├── contact_23.mag
+│   ├── contact_24.mag
+│   ├── contact_26.mag
+│   ├── contact_27.mag
+│   ├── contact_28.mag
+│   ├── contact_29.mag
+│   ├── contact_32.mag
+│   ├── contact_33.mag
+│   ├── contact_34.mag
+│   ├── contact_7.mag
+│   ├── contact_8.mag
+│   ├── contact_9.mag
+│   ├── control_logic_r.mag
+│   ├── control_logic_rw.mag
+│   ├── cr_0.mag
+│   ├── cr_1.mag
+│   ├── cr_2.mag
+│   ├── cr_3.mag
+│   ├── data_dff.mag
+│   ├── delay_chain.mag
+│   ├── dff_buf_0.mag
+│   ├── dff_buf_array.mag
+│   ├── dff.mag
+│   ├── dummy_array.mag
+│   ├── hierarchical_decoder.mag
+│   ├── hierarchical_predecode2x4.mag
+│   ├── hierarchical_predecode3x8.mag
+│   ├── nand2_dec.mag
+│   ├── nand3_dec.mag
+│   ├── nmos_m10_w7_000_sli_dli_da_p.mag
+│   ├── nmos_m12_w2_000_sli_dli_da_p.mag
+│   ├── nmos_m13_w2_000_sli_dli_da_p.mag
+│   ├── nmos_m18_w2_000_sli_dli_da_p.mag
+│   ├── nmos_m1_w0_360_sli_dli_da_p.mag
+│   ├── nmos_m1_w0_740_sactive_dactive.mag
+│   ├── nmos_m1_w0_740_sactive_dli.mag
+│   ├── nmos_m1_w0_740_sli_dactive.mag
+│   ├── nmos_m1_w2_880_sli_dli.mag
+│   ├── nmos_m22_w2_000_sli_dli_da_p.mag
+│   ├── nmos_m24_w2_000_sli_dli_da_p.mag
+│   ├── nmos_m2_w0_740_sli_dli_da_p.mag
+│   ├── nmos_m2_w1_260_sli_dli_da_p.mag
+│   ├── nmos_m3_w1_680_sli_dli_da_p.mag
+│   ├── nmos_m3_w2_000_sli_dli_da_p.mag
+│   ├── nmos_m40_w2_000_sli_dli_da_p.mag
+│   ├── nmos_m4_w1_260_sli_dli_da_p.mag
+│   ├── nmos_m5_w1_680_sli_dli_da_p.mag
+│   ├── nmos_m7_w1_680_sli_dli_da_p.mag
+│   ├── nmos_m8_w1_680_sli_dli_da_p.mag
+│   ├── pand2_0.mag
+│   ├── pand2.mag
+│   ├── pand3_0.mag
+│   ├── pand3.mag
+│   ├── pdriver_0.mag
+│   ├── pdriver_1.mag
+│   ├── pdriver_2.mag
+│   ├── pdriver_3.mag
+│   ├── pdriver_4.mag
+│   ├── pdriver_5.mag
+│   ├── pdriver.mag
+│   ├── pinv_0.mag
+│   ├── pinv_10.mag
+│   ├── pinv_11.mag
+│   ├── pinv_12.mag
+│   ├── pinv_13.mag
+│   ├── pinv_14.mag
+│   ├── pinv_15.mag
+│   ├── pinv_16.mag
+│   ├── pinv_17.mag
+│   ├── pinv_18.mag
+│   ├── pinv_19.mag
+│   ├── pinv_1.mag
+│   ├── pinv_20.mag
+│   ├── pinv_2.mag
+│   ├── pinv_3.mag
+│   ├── pinv_6.mag
+│   ├── pinv_7.mag
+│   ├── pinv_8.mag
+│   ├── pinv_9.mag
+│   ├── pinvbuf.mag
+│   ├── pinv_dec_0.mag
+│   ├── pinv_dec.mag
+│   ├── pinv.mag
+│   ├── pmos_m10_w7_000_sli_dli_da_p.mag
+│   ├── pmos_m12_w2_000_sli_dli_da_p.mag
+│   ├── pmos_m13_w2_000_sli_dli_da_p.mag
+│   ├── pmos_m18_w2_000_sli_dli_da_p.mag
+│   ├── pmos_m1_w0_550_sli_dli.mag
+│   ├── pmos_m1_w1_120_sli_dli_da_p.mag
+│   ├── pmos_m1_w1_120_sli_dli.mag
+│   ├── pmos_m22_w2_000_sli_dli_da_p.mag
+│   ├── pmos_m24_w2_000_sli_dli_da_p.mag
+│   ├── pmos_m2_w1_120_sli_dli_da_p.mag
+│   ├── pmos_m2_w1_650_sli_dli_da_p.mag
+│   ├── pmos_m3_w1_650_sli_dli_da_p.mag
+│   ├── pmos_m3_w2_000_sli_dli_da_p.mag
+│   ├── pmos_m40_w2_000_sli_dli_da_p.mag
+│   ├── pmos_m4_w2_000_sli_dli_da_p.mag
+│   ├── pmos_m5_w2_000_sli_dli_da_p.mag
+│   ├── pmos_m7_w2_000_sli_dli_da_p.mag
+│   ├── pmos_m8_w2_000_sli_dli_da_p.mag
+│   ├── pnand2_0.mag
+│   ├── pnand2_1.mag
+│   ├── pnand2.mag
+│   ├── pnand3.mag
+│   ├── port_address.mag
+│   ├── port_data_0.mag
+│   ├── port_data.mag
+│   ├── precharge_0.mag
+│   ├── precharge_1.mag
+│   ├── precharge_array_0.mag
+│   ├── precharge_array.mag
+│   ├── replica_bitcell_array.mag
+│   ├── replica_column_0.mag
+│   ├── replica_column.mag
+│   ├── row_addr_dff.mag
+│   ├── row_cap_array_0.mag
+│   ├── row_cap_array.mag
+│   ├── sense_amp_array.mag
+│   ├── sense_amp.mag
+│   ├── single_level_column_mux_0.mag
+│   ├── single_level_column_mux_array_0.mag
+│   ├── single_level_column_mux_array.mag
+│   ├── single_level_column_mux.mag
+│   ├── sky130_fd_bd_sram__openram_dff_1.mag
+│   ├── sky130_fd_bd_sram__openram_dff_2.mag
+│   ├── sky130_fd_bd_sram__openram_dff.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_1.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_2.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_3.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_cap_col_1.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_cap_col_2.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_cap_col_3.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_cap_col.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_cap_row_1.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_cap_row_2.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_cap_row_3.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_cap_row.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_dummy_1.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_dummy_2.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_dummy_3.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_dummy.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_replica_1.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_replica_2.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_replica_3.mag
+│   ├── sky130_fd_bd_sram__openram_dp_cell_replica.mag
+│   ├── sky130_fd_bd_sram__openram_dp_nand2_dec_1.mag
+│   ├── sky130_fd_bd_sram__openram_dp_nand2_dec_2.mag
+│   ├── sky130_fd_bd_sram__openram_dp_nand2_dec.mag
+│   ├── sky130_fd_bd_sram__openram_dp_nand3_dec_1.mag
+│   ├── sky130_fd_bd_sram__openram_dp_nand3_dec_2.mag
+│   ├── sky130_fd_bd_sram__openram_dp_nand3_dec.mag
+│   ├── sky130_fd_bd_sram__openram_sense_amp_1.mag
+│   ├── sky130_fd_bd_sram__openram_sense_amp_2.mag
+│   ├── sky130_fd_bd_sram__openram_sense_amp.mag
+│   ├── sky130_fd_bd_sram__openram_write_driver_1.mag
+│   ├── sky130_fd_bd_sram__openram_write_driver_2.mag
+│   ├── sky130_fd_bd_sram__openram_write_driver.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_and2_dec.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_and3_dec.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_bank.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_bitcell_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_col_addr_dff.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_col_cap_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_column_mux_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_column_mux.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_11.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_12.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_13.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_14.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_15.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_16.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_17.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_19.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_20.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_21.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_22.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_23.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_24.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_25.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_26.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_27.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_28.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_29.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_33.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_34.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_39.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_40.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_7.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_8.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_contact_9.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_r.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_control_logic_rw.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_cr_3.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_cr_4.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_cr_5.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_data_dff.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_delay_chain.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_dff_buf_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_dummy_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_decoder.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode2x4.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_hierarchical_predecode3x8.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m12_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m13_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m18_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_360_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sactive_dactive.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sactive_dli.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w0_740_sli_dactive.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w7_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m22_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m24_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m2_w0_740_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m2_w1_260_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m39_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m3_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m3_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m40_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m4_w1_260_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m5_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m7_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m8_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pand2_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pand2.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pand3_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pand3.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_1.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_2.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_3.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_4.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_5.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pdriver_6.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pdriver.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_10.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_11.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_12.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_13.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_14.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_15.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_16.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_17.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_18.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_19.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_1.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_20.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_2.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_3.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_6.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_7.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_8.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_9.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinvbuf.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv_dec.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pinv.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m12_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m13_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m18_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w0_550_sli_dli.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w1_120_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w1_120_sli_dli.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m1_w7_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m22_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m24_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m2_w1_260_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m2_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m39_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m3_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m3_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m40_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m4_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m5_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m7_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pmos_m8_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pnand2_1.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pnand2.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_pnand3.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_port_address_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_port_address.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_port_data_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_port_data.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_precharge_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_precharge_1.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_precharge_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_replica_bitcell_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_replica_column_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_replica_column.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_row_addr_dff.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_row_cap_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_sense_amp_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_wmask_dff.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_wordline_driver.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_write_driver_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8_write_mask_and_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_and2_dec_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_and2_dec.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_and3_dec.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_bank.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_bitcell_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_col_addr_dff.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_col_cap_array_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_col_cap_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_column_mux_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_column_mux_array_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_column_mux_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_column_mux.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_11.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_12.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_13.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_14.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_15.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_16.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_17.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_19.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_20.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_21.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_22.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_23.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_24.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_25.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_26.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_27.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_28.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_29.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_32.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_33.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_38.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_39.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_7.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_8.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_contact_9.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_control_logic_r.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_control_logic_rw.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_cr_3.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_cr_4.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_cr_5.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_data_dff.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_delay_chain.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_dff_buf_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_dff_buf_array_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_dff_buf_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_dummy_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_hierarchical_decoder.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_hierarchical_predecode2x4.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_hierarchical_predecode3x8_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_hierarchical_predecode3x8.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m12_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m1_w0_360_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m1_w0_740_sactive_dactive.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m1_w0_740_sactive_dli.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m1_w0_740_sli_dactive.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m1_w2_880_sli_dli.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m1_w7_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m21_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m22_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m24_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m2_w0_740_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m3_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m3_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m4_w1_260_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m5_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m7_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m8_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m8_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_nmos_m9_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pand2_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pand2.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pand3_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pand3_1.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pand3.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pdriver_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pdriver_1.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pdriver_2.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pdriver_3.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pdriver_4.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pdriver_5.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pdriver_6.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pdriver_7.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pdriver.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_10.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_11.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_12.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_13.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_14.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_15.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_16.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_17.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_18.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_19.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_1.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_2.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_3.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_4.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_7.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_8.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_9.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_dec_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv_dec.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pinv.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m12_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m1_w0_550_sli_dli.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m1_w1_120_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m1_w1_120_sli_dli.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m1_w7_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m21_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m22_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m24_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m2_w1_260_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m3_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m3_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m4_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m5_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m7_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m8_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pmos_m9_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pnand2_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pnand2_1.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pnand2.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_pnand3.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_port_address_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_port_address.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_port_data_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_port_data.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_precharge_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_precharge_1.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_precharge_array_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_precharge_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_replica_bitcell_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_replica_column_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_replica_column.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_row_addr_dff.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_row_cap_array_0.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_row_cap_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_sense_amp_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_wmask_dff.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_wordline_driver_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_wordline_driver.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_write_driver_array.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8_write_mask_and_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_and2_dec_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_and2_dec.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_and3_dec.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_bank.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_bitcell_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_col_addr_dff.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_column_mux.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_11.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_12.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_13.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_14.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_15.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_16.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_17.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_19.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_20.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_21.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_22.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_23.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_24.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_25.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_26.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_27.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_28.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_29.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_32.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_33.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_38.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_39.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_7.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_8.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_contact_9.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_control_logic_r.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_control_logic_rw.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_cr_3.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_cr_4.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_cr_5.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_data_dff.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_delay_chain.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_array_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_dummy_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_decoder.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode2x4_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode2x4.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode3x8.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m14_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m15_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m18_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_360_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sactive_dactive.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sactive_dli.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sli_dactive.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w2_880_sli_dli.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w7_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m22_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m24_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m2_w0_740_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m2_w1_260_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m3_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m3_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m41_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m42_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m5_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m5_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m7_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m8_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pand2_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pand2_1.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pand2.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pand3_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pand3.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_1.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_2.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_3.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_4.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_5.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_6.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pdriver.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_10.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_11.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_12.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_13.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_14.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_15.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_16.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_17.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_18.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_19.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_1.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_20.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_2.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_3.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_4.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_7.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_8.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_9.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_dec_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv_dec.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pinv.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m14_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m15_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m18_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w0_550_sli_dli.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w1_120_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w1_120_sli_dli.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w7_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m22_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m24_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m2_w1_260_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m2_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m3_w1_680_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m3_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m41_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m42_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m5_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m7_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m8_w2_000_sli_dli_da_p.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pnand2_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pnand2_1.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pnand2.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_pnand3.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_port_address_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_port_address.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_port_data_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_port_data.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_precharge_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_precharge_1.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_precharge_array_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_precharge_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_replica_bitcell_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_replica_column_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_replica_column.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_row_addr_dff.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array_0.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_sense_amp_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_wmask_dff.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_wordline_driver_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_wordline_driver.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_write_driver_array.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8_write_mask_and_array.mag
+│   ├── sram_1rw1r_32_256_8_sky130.mag
+│   ├── wmask_dff.mag
+│   ├── wordline_driver_array.mag
+│   ├── wordline_driver.mag
+│   ├── write_driver_array.mag
+│   ├── write_driver.mag
+│   └── write_mask_and_array.mag
+├── maglef
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8.mag
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8.mag
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8.mag
+│   └── sram_1rw1r_32_256_8_sky130.mag
+├── spice
+│   ├── sky130_sram_1kbyte_1rw1r_32x256_8.spice
+│   ├── sky130_sram_1kbyte_1rw1r_8x1024_8.spice
+│   ├── sky130_sram_2kbyte_1rw1r_32x512_8.spice
+│   └── sram_1rw1r_32_256_8_sky130.spice
+└── verilog
+    ├── sky130_sram_1kbyte_1rw1r_32x256_8.v
+    ├── sky130_sram_1kbyte_1rw1r_8x1024_8.v
+    ├── sky130_sram_2kbyte_1rw1r_32x512_8.v
+    └── sram_1rw1r_32_256_8_sky130.v
+
+8 directories, 663 files
+prabhat@fedora:~$ 
+

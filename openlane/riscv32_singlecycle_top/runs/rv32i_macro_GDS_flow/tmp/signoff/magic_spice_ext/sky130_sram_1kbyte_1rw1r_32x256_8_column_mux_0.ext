@@ -1,0 +1,60 @@
+timestamp 1773147551
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_1 1 0 237 0 1 54
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_14 sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_1 1 0 333 0 1 309
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_14 sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_3 1 0 529 0 1 23
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_15 sky130_sram_1kbyte_1rw1r_32x256_8_contact_15_0 1 0 599 0 1 622
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_14 sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0 1 0 595 0 1 630
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0 1 0 592 0 1 631
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_0 1 0 591 0 1 626
+use sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_0 1 0 237 0 1 684
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_14 sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_4 1 0 65 0 1 1227
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_14 sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_2 1 0 233 0 1 939
+port "gnd" 1 575 614 673 712 m3
+port "br_out" 5 544 0 572 56 m1
+port "br" 3 544 1260 572 1316 m1
+port "bl_out" 4 80 0 108 56 m1
+port "bl" 2 80 1260 108 1316 m1
+node "gnd" 0 0 575 614 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_596_639#" 0 0 596 639 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "br_out" 0 0 544 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "br" 0 0 544 1260 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bl_out" 0 0 80 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "bl" 0 0 80 1260 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_245_39#" 0 0 245 39 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_80_1243#" 0 0 80 1243 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "sel" 0 0 297 28 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_297_630#" 0 0 297 630 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_2/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_4/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_4/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_0/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_0/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_0/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_0/m2_5_0#" "gnd"
+merge "gnd" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/m1_0_6#" "m2_596_639#"
+merge "m2_596_639#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0/li_12_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0/li_12_0#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_15_0/a_0_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_15_0/a_0_0#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_3/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_3/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_1/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_1/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_1/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_1/VSUBS" "VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_1/li_12_0#" "br" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "br" "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_1/D"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_2/li_12_0#" "bl_out" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "bl_out" "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_0/S"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_4/li_12_0#" "bl" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "bl" "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_0/D"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_0/D" "li_80_1243#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_0/G" "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_1/G" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_1/G" "sel"
+merge "sel" "a_297_630#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_3/li_12_0#" "br_out" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "br_out" "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_1/S"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_nmos_m1_w2_880_sli_dli_1/S" "li_245_39#"

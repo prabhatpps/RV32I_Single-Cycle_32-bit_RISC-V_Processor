@@ -1,0 +1,4 @@
+[WARNING PPL-0015] Macro u_dmem.u_sram is not placed.
+[WARNING PPL-0015] Macro u_imem.u_sram is not placed.
+[WARNING PPL-0015] Macro u_regfile.u_sram_rs1 is not placed.
+[WARNING PPL-0015] Macro u_regfile.u_sram_rs2 is not placed.

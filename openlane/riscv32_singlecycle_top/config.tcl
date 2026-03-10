@@ -56,9 +56,9 @@ set ::env(CLOCK_PERIOD) 20.0
 
 # Floorplan sized for 4 SRAM macros + logic
 set ::env(FP_SIZING) absolute
-set ::env(DIE_AREA) "0 0 3000 2800"
-set ::env(CORE_AREA) "100 100 2900 2700"
-set ::env(PL_TARGET_DENSITY) 0.20
+set ::env(DIE_AREA) "0 0 1700 1700"
+set ::env(CORE_AREA) "100 100 1600 1600"
+set ::env(PL_TARGET_DENSITY) 0.15
 set ::env(PL_MACRO_HALO) "20 20"
 set ::env(PL_MACRO_CHANNEL) "80 80"
 set ::env(MACRO_PLACEMENT_CFG) $::env(DESIGN_DIR)/macro_placement.cfg
@@ -72,5 +72,7 @@ set ::env(FP_PDN_MACRO_HOOKS) [list \
 ]
 
 # Conservative routing for macro-heavy floorplan
-set ::env(GRT_ADJUSTMENT) 0.15
+set ::env(GRT_ADJUSTMENT) 0.05
+set ::env(GLB_RESIZER_DESIGN_OPTIMIZATIONS) 0
+set ::env(GLB_RESIZER_TIMING_OPTIMIZATIONS) 0
 set ::env(RUN_CVC) 0

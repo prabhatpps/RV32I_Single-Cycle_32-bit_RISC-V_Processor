@@ -1,0 +1,6 @@
+[WARNING ANT-0009] Net u_regfile.wd\[11\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net u_regfile.wd\[19\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net u_regfile.wd\[3\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net u_regfile.wd\[4\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net58 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net168 requires more than 10 diodes per gate to repair violations.

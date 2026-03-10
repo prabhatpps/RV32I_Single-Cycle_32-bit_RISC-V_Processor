@@ -1,0 +1,54 @@
+%Warning-WIDTHTRUNC: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/imem.v:85:23: Operator ASSIGNW expects 8 bits on the Assign RHS, but Assign RHS's SEL generates 30 bits.
+                                                                                                                                                 : ... In instance riscv32_singlecycle_top.u_imem
+   85 |     assign word_index = addr[31:2];
+      |                       ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.009
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/riscv32_singlecycle_top.v:215:17: Signal is not used: 'alu_zero'
+                                                                                                                                                                       : ... In instance riscv32_singlecycle_top
+  215 |     wire        alu_zero;
+      |                 ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/riscv32_singlecycle_top.v:216:17: Signal is not used: 'alu_negative'
+                                                                                                                                                                       : ... In instance riscv32_singlecycle_top
+  216 |     wire        alu_negative;
+      |                 ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/riscv32_singlecycle_top.v:217:17: Signal is not used: 'alu_carry'
+                                                                                                                                                                       : ... In instance riscv32_singlecycle_top
+  217 |     wire        alu_carry;
+      |                 ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/riscv32_singlecycle_top.v:218:17: Signal is not used: 'alu_overflow'
+                                                                                                                                                                       : ... In instance riscv32_singlecycle_top
+  218 |     wire        alu_overflow;
+      |                 ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/decoder_controller.v:43:23: Signal is not used: 'funct3'
+                                                                                                                                                                 : ... In instance riscv32_singlecycle_top.u_decoder_controller
+   43 |     input  wire [2:0] funct3,         
+      |                       ^~~~~~
+%Warning-UNUSEDSIGNAL: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/decoder_controller.v:44:23: Signal is not used: 'funct7'
+                                                                                                                                                                 : ... In instance riscv32_singlecycle_top.u_decoder_controller
+   44 |     input  wire [6:0] funct7,         
+      |                       ^~~~~~
+%Warning-UNUSEDSIGNAL: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/imm_gen.v:41:24: Bits of signal are not used: 'instr'[6:0]
+                                                                                                                                                      : ... In instance riscv32_singlecycle_top.u_imm_gen
+   41 |     input  wire [31:0] instr,      
+      |                        ^~~~~
+%Warning-UNUSEDSIGNAL: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/alu_control.v:54:23: Bits of signal are not used: 'funct7'[6,4:0]
+                                                                                                                                                          : ... In instance riscv32_singlecycle_top.u_alu_control
+   54 |     input  wire [6:0] funct7,      
+      |                       ^~~~~~
+%Warning-UNUSEDSIGNAL: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/dmem.v:103:17: Bits of signal are not used: 'word_index'[31:8]
+                                                                                                                                                    : ... In instance riscv32_singlecycle_top.u_dmem
+  103 |     wire [31:0] word_index;
+      |                 ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/imem.v:37:24: Signal is not used: 'clk'
+                                                                                                                                                   : ... In instance riscv32_singlecycle_top.u_imem
+   37 |     input  wire        clk,                             
+      |                        ^~~
+%Warning-UNUSEDSIGNAL: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/imem.v:39:24: Bits of signal are not used: 'addr'[1:0]
+                                                                                                                                                   : ... In instance riscv32_singlecycle_top.u_imem
+   39 |     input  wire [31:0] addr,                            
+      |                        ^~~~
+%Warning-UNDRIVEN: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/../../src/imem.v:83:16: Signal is not driven: 'mem'
+                                                                                                                                               : ... In instance riscv32_singlecycle_top.u_imem
+   83 |     reg [31:0] mem [0:MEM_DEPTH_WORDS-1];
+      |                ^~~

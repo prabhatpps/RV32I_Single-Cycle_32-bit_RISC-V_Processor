@@ -1,0 +1,7 @@
+Warning: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/runs/rv32i_macro_GDS_flow/results/routing/riscv32_singlecycle_top.nl.v line 17404, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found. Creating black box for TAP_2338.
+Warning: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/runs/rv32i_macro_GDS_flow/results/routing/riscv32_singlecycle_top.nl.v line 38772, module sky130_ef_sc_hd__decap_12 not found. Creating black box for FILLER_0_0_29.
+Warning: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/runs/rv32i_macro_GDS_flow/results/routing/riscv32_singlecycle_top.nl.v line 38776, module sky130_fd_sc_hd__fill_1 not found. Creating black box for FILLER_0_0_69.
+Warning: /home/prabhat/Work_Ubuntu/RV32I_Single-Cycle_32-bit_RISC-V_Processor/openlane/riscv32_singlecycle_top/runs/rv32i_macro_GDS_flow/results/routing/riscv32_singlecycle_top.nl.v line 39116, module sky130_fd_sc_hd__fill_2 not found. Creating black box for FILLER_0_0_3249.
+Warning: There is 1 input port missing set_input_delay.
+Warning: There are 96 unconstrained endpoints.
+[WARNING] Did not save OpenROAD database!

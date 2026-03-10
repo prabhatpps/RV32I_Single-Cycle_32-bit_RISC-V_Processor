@@ -815,6 +815,10 @@ If your setup uses a different Sky130 root, update those paths in:
 - `openlane/riscv32_singlecycle_top/config.tcl`
 - `openlane/riscv32_singlecycle_top/sky130A_setup_macros.tcl`
 
+### Final Layout
+
+![Final Layout](./layout.png)
+
 ---
 
 ## Limitations

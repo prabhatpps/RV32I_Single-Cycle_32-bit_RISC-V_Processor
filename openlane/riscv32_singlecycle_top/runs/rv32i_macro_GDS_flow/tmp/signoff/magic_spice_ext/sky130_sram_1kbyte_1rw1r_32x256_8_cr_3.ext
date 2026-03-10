@@ -1,0 +1,26 @@
+timestamp 1773147551
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0 1 0 2083 0 1 -2956
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1 1 0 6038 0 1 5427
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_14 sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0 1 0 6041 0 1 5426
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2 1 0 6038 0 1 -2956
+node "m2_2101_n3939#" 0 0 2101 -3939 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_6056_n2924#" 0 0 6056 -2924 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_2115_n2938#" 0 0 2115 -2938 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_6038_5433#" 0 0 6038 5433 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0/li_12_0#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/m1_0_6#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/m1_0_6#" "m1_6038_5433#"
+merge "m1_6038_5433#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/m1_0_6#" "m2_6056_n2924#"
+merge "m2_6056_n2924#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/m1_0_6#" "m2_2101_n3939#"
+merge "m2_2101_n3939#" "m1_2115_n2938#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/VSUBS" "VSUBS"

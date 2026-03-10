@@ -1,0 +1,155 @@
+Detailed Summary of Memory Macro Implementation (regfile, imem, dmem)
+======================================================================
+
+1) Background and Root Cause
+----------------------------
+The original implementation of `imem`, `dmem`, and `regfile` used behavioral memory arrays.
+That is good for RTL simulation, but in ASIC synthesis (OpenLane + sky130), inferred memories can
+become large gate-level structures (flip-flops/mux trees/logic) if a hard macro is not used.
+
+This caused:
+- high standard-cell count,
+- higher placement density pressure,
+- local routing congestion near memory-heavy regions,
+- longer and harder detailed routing closure,
+- signoff complexity.
+
+So the design needed explicit SRAM macro mapping for memory blocks.
+
+
+2) What We Changed in `imem`
+----------------------------
+File affected: `src/imem.v`
+
+Functional requirement:
+- Read-only instruction fetch memory from the CPU point of view.
+- Depth/width target aligned to available sky130 macro resources.
+
+Implementation changes:
+- Added conditional compile path:
+  - RTL path (default): keeps behavioral array model for normal testbench simulation.
+  - ASIC synthesis path: instantiates `sky130_sram_1kbyte_1rw1r_32x256_8`.
+- Added conditional clock port usage for macro mode because macro interface is synchronous.
+- Added optional power pin wiring under `USE_POWER_PINS`.
+
+Why this implementation:
+- The selected macro is a native sky130 SRAM with 256 words x 32 bits (1KB), matching intended IMEM size.
+- Using the hard macro removes thousands of equivalent inferred logic elements from PnR burden.
+
+
+3) What We Changed in `dmem`
+----------------------------
+File affected: `src/dmem.v`
+
+Functional requirement:
+- Single-port read/write data memory behavior for load/store operations.
+
+Implementation changes:
+- Same dual-mode structure as `imem`:
+  - Behavioral array model for simulation.
+  - Macro instantiation for synthesis: `sky130_sram_1kbyte_1rw1r_32x256_8`.
+- Added write-enable, chip-enable, address, and data mapping to macro pins.
+- Added optional power pin wiring under `USE_POWER_PINS`.
+
+Why this implementation:
+- `dmem` has similar size and memory-like access behavior; macro mapping gives the largest physical benefit.
+- It significantly reduces congestion and improves routing feasibility versus inferred memory logic.
+
+
+4) What We Changed in `regfile`
+-------------------------------
+File affected: `src/regfile.v`
+
+Functional requirement:
+- RISC-V register file needs:
+  - 2 independent read ports (rs1, rs2),
+  - 1 write port (rd),
+  - x0 behavior (register zero handling in logic path).
+
+Challenge:
+- The available macro is `1rw1r`, not native `2r1w`.
+
+Implementation strategy:
+- Built the 2-read/1-write register file using two mirrored SRAM macros:
+  - `u_sram_rs1` provides read data for rs1 port.
+  - `u_sram_rs2` provides read data for rs2 port.
+  - Both macros share the same write operation (same write address/data/enable), so both copies remain coherent.
+
+Why two mirrored macros:
+- This is a standard architecture trick when only 1RW1R macros are available.
+- It preserves required 2R1W behavior with deterministic timing and macro-friendly implementation.
+- Physical impact is still far better than synthesizing a full multiported register file from standard cells.
+
+
+5) Control of Simulation vs Synthesis Behavior
+----------------------------------------------
+To avoid breaking RTL verification while enabling macro-based ASIC implementation:
+
+- `USE_SRAM_MACROS`:
+  - Enables macro path in memory modules.
+- `SYNTHESIS`:
+  - Ensures macro path is used in synthesis context, while pure RTL runs keep behavioral arrays.
+- `USE_POWER_PINS`:
+  - Enables explicit PG pin ports/wiring for macro instances during physical flow.
+
+This guarantees:
+- Existing `iverilog` testbenches still run on behavioral models.
+- OpenLane synthesis/PnR sees real macro instances.
+
+
+6) OpenLane and Integration Work Required for Macro Use
+--------------------------------------------------------
+Beyond RTL module edits, memory macros require complete physical-flow integration:
+
+- Added SRAM macro blackbox model for synthesis elaboration.
+- Added macro LEF/GDS/LIB/SPICE references in OpenLane config.
+- Added macro placement file (`macro_placement.cfg`) to control floorplan locations.
+- Added PDN macro hooks mapping top-level power nets to macro power pins.
+- Added SDC constraints and flow TCL setup.
+
+LVS-specific fix:
+- Created custom netgen setup (`sky130A_setup_macros.tcl`) and set
+  `NETGEN_SETUP_FILE` in config.
+- Reason: prevent false mismatches from deep internal transistor-level comparison
+  inside SRAM macro internals while still checking top-level connectivity correctly.
+
+
+7) Why This Solved the Original Problem
+---------------------------------------
+Main objective:
+- Fix placement/routing failures caused by inferred memories in RTL-to-GDSII.
+
+Direct effects of macro mapping:
+- Large memory logic collapsed into fixed hard macros.
+- Standard-cell utilization pressure reduced.
+- Global/detailed routing became tractable.
+- Signoff checks became achievable.
+
+Observed outcome:
+- OpenLane full flow completed successfully.
+- DRC clean.
+- LVS passed (0 total errors) after proper macro-aware LVS setup.
+
+
+8) Tradeoffs and Design Intent
+------------------------------
+Tradeoffs accepted:
+- Less portability to non-sky130 targets without changing macro bindings.
+- Slightly more complexity in RTL via conditional compilation.
+- Additional OpenLane collateral (macro config, hooks, custom LVS setup).
+
+Why acceptable:
+- Target is sky130 ASIC implementation.
+- Priority was physical closure and robust signoff.
+- Verification path was preserved, so development/testing workflow remains stable.
+
+
+9) Final Design Philosophy Used
+-------------------------------
+Keep one RTL codebase with two clearly separated execution paths:
+- Simulation-friendly behavioral memory path.
+- ASIC-ready hard-macro memory path.
+
+This gives both:
+- fast and stable functional verification, and
+- realistic manufacturable physical implementation.

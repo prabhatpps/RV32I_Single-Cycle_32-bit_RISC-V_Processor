@@ -1,0 +1,26 @@
+timestamp 1773147551
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0 1 0 64019 0 1 67355
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1 1 0 61024 0 1 65421
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_14 sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0 1 0 61027 0 1 65420
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2 1 0 61024 0 1 67355
+node "m2_61042_65453#" 0 0 61042 65453 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_64037_67387#" 0 0 64037 67387 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_61024_65427#" 0 0 61024 65427 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_61056_67373#" 0 0 61056 67373 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/VSUBS" "VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/m1_0_6#" "m2_64037_67387#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "m2_64037_67387#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/m1_0_6#" "m1_61056_67373#"
+merge "m1_61056_67373#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0/li_12_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_14_0/li_12_0#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/m1_0_6#" "m2_61042_65453#"
+merge "m2_61042_65453#" "m1_61024_65427#"

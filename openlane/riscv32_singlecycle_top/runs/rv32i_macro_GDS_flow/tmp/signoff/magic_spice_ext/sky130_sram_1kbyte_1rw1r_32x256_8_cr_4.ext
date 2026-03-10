@@ -1,0 +1,1139 @@
+timestamp 1773147551
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_1 1 0 3250 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_3 1 0 3245 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_21 1 0 4413 0 1 -2957
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_3 1 0 4418 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_9 1 0 4413 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_6 1 0 5586 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_14 1 0 5581 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_9 1 0 6754 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_16 1 0 6749 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_7 1 0 7922 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_8 1 0 7917 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_4 1 0 9090 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_10 1 0 9085 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_13 1 0 10258 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_27 1 0 10253 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_10 1 0 11426 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_7 1 0 11421 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_0 1 0 12594 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_0 1 0 12589 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_12 1 0 13762 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_25 1 0 13757 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_11 1 0 14930 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_22 1 0 14925 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_23 1 0 16098 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_47 1 0 16093 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_26 1 0 17266 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_39 1 0 17261 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_31 1 0 18434 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_59 1 0 18429 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_20 1 0 19602 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_40 1 0 19597 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_34 1 0 20770 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_68 1 0 20765 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_29 1 0 21938 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_56 1 0 21933 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_22 1 0 23106 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_44 1 0 23101 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_34 1 0 23603 0 1 -2957
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_16 1 0 24274 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_32 1 0 24269 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_14 1 0 25442 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_28 1 0 25437 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_38 1 0 26605 0 1 -2957
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_19 1 0 26610 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_35 1 0 26605 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_18 1 0 27778 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_36 1 0 27773 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_42 1 0 28946 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_85 1 0 28941 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_55 1 0 30114 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_111 1 0 30109 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_51 1 0 31282 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_103 1 0 31277 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_46 1 0 32450 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_92 1 0 32445 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_84 1 0 33872 0 1 -2957
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_41 1 0 33618 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_82 1 0 33613 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_102 1 0 34781 0 1 -2957
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_50 1 0 34786 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_101 1 0 34781 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_45 1 0 35954 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_91 1 0 35949 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_39 1 0 37122 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_79 1 0 37117 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_53 1 0 38290 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_107 1 0 38285 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_49 1 0 39458 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_98 1 0 39453 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_60 1 0 40626 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_120 1 0 40621 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_143 1 0 42608 0 1 -2957
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_57 1 0 41794 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_114 1 0 41789 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_139 1 0 42957 0 1 -2957
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_69 1 0 42962 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_138 1 0 42957 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_66 1 0 44130 0 1 -3962
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_132 1 0 44125 0 1 -3958
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_141 1 0 51344 0 1 -2957
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_19 1 0 6749 0 1 -2713
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_2 1 0 10253 0 1 -2469
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_24 1 0 11421 0 1 -2225
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_1 1 0 12589 0 1 -1981
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_58 1 0 16400 0 1 -2469
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_66 1 0 17648 0 1 -2225
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_52 1 0 17261 0 1 -2469
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_62 1 0 18429 0 1 -2225
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_51 1 0 18896 0 1 -1981
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_41 1 0 19597 0 1 -1981
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_54 1 0 23888 0 1 -2469
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_64 1 0 25136 0 1 -2225
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_43 1 0 26384 0 1 -1981
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_37 1 0 27773 0 1 -2469
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_88 1 0 28941 0 1 -2225
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_112 1 0 30109 0 1 -1981
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_81 1 0 35120 0 1 -2469
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_100 1 0 35949 0 1 -2469
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_90 1 0 36368 0 1 -2225
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_80 1 0 37117 0 1 -2225
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_108 1 0 38285 0 1 -1981
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_78 1 0 37616 0 1 -1981
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_137 1 0 43571 0 1 -2713
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_133 1 0 44125 0 1 -2713
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_131 1 0 43856 0 1 -2469
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_129 1 0 45104 0 1 -2225
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_127 1 0 46352 0 1 -1981
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_135 1 0 52592 0 1 -2713
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_4 1 0 3245 0 1 -1493
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_15 1 0 5581 0 1 -1005
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_17 1 0 7917 0 1 -1249
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_6 1 0 13619 0 1 -1493
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_26 1 0 13757 0 1 -1737
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_20 1 0 13904 0 1 -1249
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_23 1 0 14925 0 1 -1493
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_48 1 0 16093 0 1 -1249
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_69 1 0 20765 0 1 -1737
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_31 1 0 20144 0 1 -1737
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_61 1 0 21392 0 1 -1493
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_57 1 0 21933 0 1 -1493
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_50 1 0 22640 0 1 -1249
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_45 1 0 23101 0 1 -1249
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_71 1 0 27632 0 1 -1737
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_97 1 0 28880 0 1 -1493
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_87 1 0 30128 0 1 -1249
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_104 1 0 31277 0 1 -1737
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_93 1 0 32445 0 1 -1493
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_83 1 0 33613 0 1 -1249
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_77 1 0 33587 0 1 -1005
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_106 1 0 38864 0 1 -1737
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_99 1 0 39453 0 1 -1737
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_121 1 0 40621 0 1 -1493
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_95 1 0 40112 0 1 -1493
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_119 1 0 41360 0 1 -1249
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_115 1 0 41789 0 1 -1249
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_125 1 0 47600 0 1 -1737
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_123 1 0 48848 0 1 -1493
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_117 1 0 50096 0 1 -1249
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_11 1 0 9085 0 1 -761
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_13 1 0 15152 0 1 -761
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_33 1 0 24269 0 1 -761
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_29 1 0 25437 0 1 -517
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_75 1 0 31376 0 1 -761
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_73 1 0 32624 0 1 -517
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_2 1 0 13624 0 1 268
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_5 1 0 13619 0 1 272
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_67 1 0 23603 0 1 272
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_17 1 0 23608 0 1 268
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_38 1 0 33592 0 1 268
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_76 1 0 33587 0 1 272
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_68 1 0 43576 0 1 268
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_136 1 0 43571 0 1 272
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1 1 0 13910 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_8 1 0 13909 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_18 1 0 13904 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0 1 0 15158 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_5 1 0 15157 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_12 1 0 15152 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_7 1 0 16406 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_28 1 0 16405 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_55 1 0 16400 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_10 1 0 17654 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_33 1 0 17653 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_65 1 0 17648 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_5 1 0 18902 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_25 1 0 18901 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_46 1 0 18896 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2 1 0 20150 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_15 1 0 20149 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_30 1 0 20144 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_8 1 0 21398 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_30 1 0 21397 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_60 1 0 21392 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_4 1 0 22646 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_24 1 0 22645 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_49 1 0 22640 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_6 1 0 23894 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_27 1 0 23893 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_53 1 0 23888 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_9 1 0 25142 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_32 1 0 25141 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_63 1 0 25136 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_3 1 0 26390 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_21 1 0 26389 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_42 1 0 26384 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_11 1 0 27638 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_35 1 0 27637 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_70 1 0 27632 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_19 1 0 28886 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_48 1 0 28885 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_96 1 0 28880 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_16 1 0 30134 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_43 1 0 30133 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_86 1 0 30128 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_13 1 0 31382 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_37 1 0 31381 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_74 1 0 31376 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_12 1 0 32630 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_36 1 0 32629 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_72 1 0 32624 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_109 1 0 33872 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_15 1 0 33878 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_40 1 0 33877 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_21 1 0 35126 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_54 1 0 35125 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_110 1 0 35120 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_17 1 0 36374 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_44 1 0 36373 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_89 1 0 36368 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_56 1 0 37621 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_113 1 0 37616 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_14 1 0 37622 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_20 1 0 38870 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_52 1 0 38869 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_105 1 0 38864 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_18 1 0 40118 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_47 1 0 40117 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_94 1 0 40112 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_23 1 0 41366 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_59 1 0 41365 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_118 1 0 41360 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_31 1 0 42614 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_71 1 0 42613 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_142 1 0 42608 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_28 1 0 43862 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_65 1 0 43861 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_130 1 0 43856 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_27 1 0 45110 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_64 1 0 45109 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_128 1 0 45104 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_26 1 0 46358 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_63 1 0 46357 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_126 1 0 46352 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_25 1 0 47606 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_62 1 0 47605 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_124 1 0 47600 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_24 1 0 48854 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_61 1 0 48853 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_122 1 0 48848 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_22 1 0 50102 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_58 1 0 50101 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_116 1 0 50096 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_30 1 0 51350 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_70 1 0 51349 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_140 1 0 51344 0 1 1392
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_19 sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_29 1 0 52598 0 1 1393
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_7 sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_67 1 0 52597 0 1 1388
+use sky130_sram_1kbyte_1rw1r_32x256_8_contact_34 sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_134 1 0 52592 0 1 1392
+node "m4_52600_n2680#" 0 0 52600 -2680 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_51352_n2924#" 0 0 51352 -2924 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_44133_n3925#" 0 0 44133 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_42965_n3925#" 0 0 42965 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_50104_n1216#" 0 0 50104 -1216 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_48856_n1460#" 0 0 48856 -1460 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_47608_n1704#" 0 0 47608 -1704 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_46360_n1948#" 0 0 46360 -1948 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_45112_n2192#" 0 0 45112 -2192 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_43864_n2436#" 0 0 43864 -2436 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_43579_n2680#" 0 0 43579 -2680 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_42616_n2924#" 0 0 42616 -2924 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_41797_n3925#" 0 0 41797 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_40629_n3925#" 0 0 40629 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_39461_n3925#" 0 0 39461 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_38293_n3925#" 0 0 38293 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_37125_n3925#" 0 0 37125 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_35957_n3925#" 0 0 35957 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_34789_n3925#" 0 0 34789 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_41368_n1216#" 0 0 41368 -1216 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_40120_n1460#" 0 0 40120 -1460 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_38872_n1704#" 0 0 38872 -1704 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_37624_n1948#" 0 0 37624 -1948 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_36376_n2192#" 0 0 36376 -2192 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_35128_n2436#" 0 0 35128 -2436 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_33880_n2924#" 0 0 33880 -2924 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_33621_n3925#" 0 0 33621 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_32453_n3925#" 0 0 32453 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_31285_n3925#" 0 0 31285 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_30117_n3925#" 0 0 30117 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_28949_n3925#" 0 0 28949 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_27781_n3925#" 0 0 27781 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_26613_n3925#" 0 0 26613 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_33595_n972#" 0 0 33595 -972 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_32632_n484#" 0 0 32632 -484 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_31384_n728#" 0 0 31384 -728 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_30136_n1216#" 0 0 30136 -1216 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_28888_n1460#" 0 0 28888 -1460 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_27640_n1704#" 0 0 27640 -1704 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_26392_n1948#" 0 0 26392 -1948 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_25445_n3925#" 0 0 25445 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_25144_n2192#" 0 0 25144 -2192 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_24277_n3925#" 0 0 24277 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_23896_n2436#" 0 0 23896 -2436 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_23611_n2924#" 0 0 23611 -2924 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_23109_n3925#" 0 0 23109 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_21941_n3925#" 0 0 21941 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_20773_n3925#" 0 0 20773 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_19605_n3925#" 0 0 19605 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_18437_n3925#" 0 0 18437 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_17269_n3925#" 0 0 17269 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_22648_n1216#" 0 0 22648 -1216 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_21400_n1460#" 0 0 21400 -1460 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_20152_n1704#" 0 0 20152 -1704 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_18904_n1948#" 0 0 18904 -1948 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_17656_n2192#" 0 0 17656 -2192 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_16408_n2436#" 0 0 16408 -2436 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_16101_n3925#" 0 0 16101 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_14933_n3925#" 0 0 14933 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_13765_n3925#" 0 0 13765 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_12597_n3925#" 0 0 12597 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_11429_n3925#" 0 0 11429 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_10261_n3925#" 0 0 10261 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_15160_n728#" 0 0 15160 -728 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_13912_n1216#" 0 0 13912 -1216 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_13627_n1460#" 0 0 13627 -1460 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_9093_n3925#" 0 0 9093 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_7925_n3925#" 0 0 7925 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_6757_n3925#" 0 0 6757 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_5589_n3925#" 0 0 5589 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_4421_n3925#" 0 0 4421 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m4_3253_n3925#" 0 0 3253 -3925 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_44088_n3957#" 0 0 44088 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_42920_n3957#" 0 0 42920 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_41752_n3957#" 0 0 41752 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_40584_n3957#" 0 0 40584 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_39416_n3957#" 0 0 39416 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_38248_n3957#" 0 0 38248 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_37080_n3957#" 0 0 37080 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_35912_n3957#" 0 0 35912 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_34744_n3957#" 0 0 34744 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_33576_n3957#" 0 0 33576 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_32408_n3957#" 0 0 32408 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_31240_n3957#" 0 0 31240 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_30072_n3957#" 0 0 30072 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_28904_n3957#" 0 0 28904 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_27736_n3957#" 0 0 27736 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_26568_n3957#" 0 0 26568 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_25400_n3957#" 0 0 25400 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_24232_n3957#" 0 0 24232 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_23064_n3957#" 0 0 23064 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_21896_n3957#" 0 0 21896 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_20728_n3957#" 0 0 20728 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_19560_n3957#" 0 0 19560 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_18392_n3957#" 0 0 18392 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_17224_n3957#" 0 0 17224 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_16056_n3957#" 0 0 16056 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_14888_n3957#" 0 0 14888 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_13720_n3957#" 0 0 13720 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_12552_n3957#" 0 0 12552 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_11384_n3957#" 0 0 11384 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_10216_n3957#" 0 0 10216 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_9048_n3957#" 0 0 9048 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_7880_n3957#" 0 0 7880 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_6712_n3957#" 0 0 6712 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_5544_n3957#" 0 0 5544 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_4376_n3957#" 0 0 4376 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_3208_n3957#" 0 0 3208 -3957 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_42995_n2954#" 0 0 42995 -2954 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_34819_n2954#" 0 0 34819 -2954 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_26643_n2954#" 0 0 26643 -2954 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_4451_n2954#" 0 0 4451 -2954 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_44163_n2710#" 0 0 44163 -2710 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_6787_n2710#" 0 0 6787 -2710 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_35987_n2466#" 0 0 35987 -2466 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_27811_n2466#" 0 0 27811 -2466 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_17299_n2466#" 0 0 17299 -2466 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_10291_n2466#" 0 0 10291 -2466 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_37155_n2222#" 0 0 37155 -2222 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_28979_n2222#" 0 0 28979 -2222 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_18467_n2222#" 0 0 18467 -2222 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_11459_n2222#" 0 0 11459 -2222 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_38323_n1978#" 0 0 38323 -1978 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_30147_n1978#" 0 0 30147 -1978 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_19635_n1978#" 0 0 19635 -1978 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_12627_n1978#" 0 0 12627 -1978 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_39491_n1734#" 0 0 39491 -1734 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_31315_n1734#" 0 0 31315 -1734 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_20803_n1734#" 0 0 20803 -1734 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_13795_n1734#" 0 0 13795 -1734 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_40659_n1490#" 0 0 40659 -1490 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_32483_n1490#" 0 0 32483 -1490 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_21971_n1490#" 0 0 21971 -1490 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_14963_n1490#" 0 0 14963 -1490 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_3283_n1490#" 0 0 3283 -1490 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_41827_n1246#" 0 0 41827 -1246 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_33651_n1246#" 0 0 33651 -1246 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_23139_n1246#" 0 0 23139 -1246 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_16131_n1246#" 0 0 16131 -1246 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_7955_n1246#" 0 0 7955 -1246 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_5619_n1002#" 0 0 5619 -1002 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_24307_n758#" 0 0 24307 -758 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_9123_n758#" 0 0 9123 -758 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_25475_n514#" 0 0 25475 -514 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_43534_273#" 0 0 43534 273 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_33550_273#" 0 0 33550 273 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_23566_273#" 0 0 23566 273 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_13582_273#" 0 0 13582 273 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_52555_1393#" 0 0 52555 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_51307_1393#" 0 0 51307 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_50059_1393#" 0 0 50059 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_48811_1393#" 0 0 48811 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_47563_1393#" 0 0 47563 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_46315_1393#" 0 0 46315 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_45067_1393#" 0 0 45067 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_43819_1393#" 0 0 43819 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_42571_1393#" 0 0 42571 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_41323_1393#" 0 0 41323 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_40075_1393#" 0 0 40075 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_38827_1393#" 0 0 38827 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_37579_1393#" 0 0 37579 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_36331_1393#" 0 0 36331 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_35083_1393#" 0 0 35083 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_33835_1393#" 0 0 33835 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_32587_1393#" 0 0 32587 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_31339_1393#" 0 0 31339 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_30091_1393#" 0 0 30091 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_28843_1393#" 0 0 28843 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_27595_1393#" 0 0 27595 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_26347_1393#" 0 0 26347 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_25099_1393#" 0 0 25099 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_23851_1393#" 0 0 23851 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_22603_1393#" 0 0 22603 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_21355_1393#" 0 0 21355 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_20107_1393#" 0 0 20107 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_18859_1393#" 0 0 18859 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_17611_1393#" 0 0 17611 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_16363_1393#" 0 0 16363 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_15115_1393#" 0 0 15115 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_13867_1393#" 0 0 13867 1393 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_52602_1401#" 0 0 52602 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_51354_1401#" 0 0 51354 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_50106_1401#" 0 0 50106 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_48858_1401#" 0 0 48858 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_47610_1401#" 0 0 47610 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_46362_1401#" 0 0 46362 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_45114_1401#" 0 0 45114 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_43866_1401#" 0 0 43866 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_42618_1401#" 0 0 42618 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_41370_1401#" 0 0 41370 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_40122_1401#" 0 0 40122 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_38874_1401#" 0 0 38874 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_37626_1401#" 0 0 37626 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_36378_1401#" 0 0 36378 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_35130_1401#" 0 0 35130 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_33882_1401#" 0 0 33882 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_32634_1401#" 0 0 32634 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_31386_1401#" 0 0 31386 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_30138_1401#" 0 0 30138 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_28890_1401#" 0 0 28890 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_27642_1401#" 0 0 27642 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_26394_1401#" 0 0 26394 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_25146_1401#" 0 0 25146 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_23898_1401#" 0 0 23898 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_22650_1401#" 0 0 22650 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_21402_1401#" 0 0 21402 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_20154_1401#" 0 0 20154 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_18906_1401#" 0 0 18906 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_17658_1401#" 0 0 17658 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_16410_1401#" 0 0 16410 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_15162_1401#" 0 0 15162 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m2_13914_1401#" 0 0 13914 1401 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_136/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_68/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_68/m2_5_0#" "m3_43534_273#"
+merge "m3_43534_273#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_137/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_137/m3_0_1#" "m4_43579_n2680#"
+merge "m4_43579_n2680#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_19/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_19/m3_0_1#" "m3_6787_n2710#"
+merge "m3_6787_n2710#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_16/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_16/m3_0_1#" "m4_6757_n3925#"
+merge "m4_6757_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_9/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_9/m2_5_0#" "m3_6712_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_134/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_67/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_67/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_29/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_29/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_140/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_140/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_70/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_70/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_30/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_30/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_116/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_116/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_58/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_58/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_22/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_22/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_122/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_122/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_61/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_61/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_24/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_24/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_124/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_124/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_62/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_62/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_25/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_25/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_126/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_126/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_63/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_63/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_26/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_26/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_128/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_128/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_64/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_64/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_27/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_27/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_130/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_130/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_65/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_65/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_28/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_28/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_142/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_142/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_71/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_71/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_31/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_31/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_136/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_136/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_68/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_68/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_118/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_118/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_59/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_59/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_23/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_23/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_94/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_94/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_47/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_47/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_18/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_18/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_105/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_105/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_52/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_52/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_20/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_20/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_14/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_14/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_113/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_113/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_56/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_56/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_89/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_89/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_44/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_44/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_17/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_17/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_110/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_110/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_54/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_54/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_21/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_21/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_40/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_40/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_15/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_15/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_109/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_109/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_72/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_72/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_36/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_36/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_12/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_12/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_76/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_76/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_38/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_38/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_74/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_74/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_37/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_37/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_13/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_13/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_86/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_86/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_43/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_43/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_16/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_16/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_96/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_96/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_48/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_48/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_19/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_19/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_70/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_70/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_35/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_35/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_11/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_11/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_42/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_42/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_21/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_21/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_3/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_3/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_63/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_63/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_32/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_32/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_9/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_9/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_53/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_53/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_27/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_27/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_6/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_6/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_17/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_17/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_67/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_67/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_49/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_49/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_24/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_24/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_4/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_4/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_60/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_60/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_30/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_30/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_8/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_8/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_30/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_30/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_15/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_15/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_46/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_46/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_25/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_25/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_5/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_5/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_65/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_65/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_33/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_33/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_10/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_10/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_55/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_55/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_28/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_28/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_7/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_7/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_12/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_12/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_5/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_5/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_18/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_18/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_8/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_8/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_5/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_5/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_2/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_2/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_73/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_73/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_77/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_77/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_75/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_75/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_29/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_29/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_33/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_33/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_13/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_13/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_11/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_11/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_15/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_15/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_117/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_117/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_123/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_123/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_125/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_125/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_127/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_127/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_129/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_129/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_131/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_131/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_115/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_115/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_119/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_119/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_95/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_95/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_121/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_121/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_99/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_99/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_106/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_106/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_108/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_108/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_78/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_78/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_80/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_80/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_90/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_90/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_100/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_100/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_81/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_81/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_83/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_83/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_93/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_93/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_104/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_104/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_87/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_87/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_112/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_112/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_97/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_97/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_88/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_88/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_71/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_71/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_37/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_37/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_43/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_43/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_64/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_64/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_45/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_45/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_54/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_54/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_50/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_50/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_57/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_57/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_61/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_61/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_31/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_31/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_69/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_69/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_41/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_41/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_51/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_51/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_62/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_62/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_52/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_52/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_66/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_66/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_48/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_48/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_58/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_58/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_23/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_23/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_20/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_20/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_26/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_26/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_6/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_6/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_1/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_1/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_24/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_24/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_2/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_2/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_17/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_17/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_4/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_4/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_135/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_135/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_141/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_141/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_133/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_133/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_132/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_132/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_66/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_66/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_137/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_137/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_138/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_138/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_69/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_69/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_139/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_139/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_143/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_143/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_114/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_114/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_57/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_57/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_120/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_120/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_60/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_60/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_98/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_98/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_49/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_49/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_107/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_107/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_53/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_53/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_79/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_79/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_39/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_39/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_91/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_91/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_45/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_45/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_101/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_101/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_50/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_50/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_102/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_102/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_82/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_82/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_41/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_41/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_84/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_84/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_92/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_92/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_46/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_46/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_103/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_103/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_51/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_51/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_111/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_111/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_55/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_55/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_85/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_85/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_42/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_42/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_36/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_36/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_18/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_18/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_35/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_35/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_19/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_19/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_38/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_38/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_28/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_28/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_14/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_14/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_32/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_32/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_16/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_16/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_34/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_34/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_44/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_44/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_22/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_22/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_56/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_56/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_29/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_29/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_68/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_68/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_34/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_34/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_40/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_40/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_20/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_20/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_59/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_59/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_31/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_31/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_39/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_39/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_26/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_26/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_47/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_47/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_23/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_23/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_22/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_22/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_11/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_11/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_25/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_25/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_12/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_12/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_0/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_0/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_0/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_7/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_7/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_10/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_10/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_27/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_27/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_13/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_13/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_10/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_10/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_4/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_4/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_8/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_8/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_7/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_7/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_19/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_19/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_16/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_16/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_9/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_9/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_14/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_14/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_6/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_6/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_9/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_9/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_3/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_3/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_21/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_21/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_3/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_3/VSUBS" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_1/VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_1/VSUBS" "VSUBS"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_14/m1_0_6#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_113/m3_0_1#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_113/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_56/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_56/m2_5_0#" "m3_37579_1393#"
+merge "m3_37579_1393#" "m2_37626_1401#"
+merge "m2_37626_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_78/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_78/m3_0_1#" "m4_37624_n1948#"
+merge "m4_37624_n1948#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_112/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_112/m3_0_1#" "m3_30147_n1978#"
+merge "m3_30147_n1978#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_111/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_111/m3_0_1#" "m4_30117_n3925#"
+merge "m4_30117_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_55/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_55/m2_5_0#" "m3_30072_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_55/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_28/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_28/m2_5_0#" "m3_16363_1393#"
+merge "m3_16363_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_7/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_7/m1_0_6#" "m2_16410_1401#"
+merge "m2_16410_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_58/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_58/m3_0_1#" "m4_16408_n2436#"
+merge "m4_16408_n2436#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_2/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_2/m3_0_1#" "m3_10291_n2466#"
+merge "m3_10291_n2466#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_27/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_27/m3_0_1#" "m4_10261_n3925#"
+merge "m4_10261_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_13/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_13/m2_5_0#" "m3_10216_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_18/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_8/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_8/m2_5_0#" "m3_13867_1393#"
+merge "m3_13867_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_1/m1_0_6#" "m2_13914_1401#"
+merge "m2_13914_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_20/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_20/m3_0_1#" "m4_13912_n1216#"
+merge "m4_13912_n1216#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_17/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_17/m3_0_1#" "m3_7955_n1246#"
+merge "m3_7955_n1246#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_8/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_8/m3_0_1#" "m4_7925_n3925#"
+merge "m4_7925_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_7/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_7/m2_5_0#" "m3_7880_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_124/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_62/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_62/m2_5_0#" "m3_47563_1393#"
+merge "m3_47563_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_25/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_25/m1_0_6#" "m2_47610_1401#"
+merge "m2_47610_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_125/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_125/m3_0_1#" "m4_47608_n1704#"
+merge "m4_47608_n1704#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_99/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_99/m3_0_1#" "m3_39491_n1734#"
+merge "m3_39491_n1734#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_98/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_98/m3_0_1#" "m4_39461_n3925#"
+merge "m4_39461_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_49/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_49/m2_5_0#" "m3_39416_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_130/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_65/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_65/m2_5_0#" "m3_43819_1393#"
+merge "m3_43819_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_28/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_28/m1_0_6#" "m2_43866_1401#"
+merge "m2_43866_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_131/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_131/m3_0_1#" "m4_43864_n2436#"
+merge "m4_43864_n2436#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_100/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_100/m3_0_1#" "m3_35987_n2466#"
+merge "m3_35987_n2466#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_91/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_91/m3_0_1#" "m4_35957_n3925#"
+merge "m4_35957_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_45/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_45/m2_5_0#" "m3_35912_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_65/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_33/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_33/m2_5_0#" "m3_17611_1393#"
+merge "m3_17611_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_10/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_10/m1_0_6#" "m2_17658_1401#"
+merge "m2_17658_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_66/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_66/m3_0_1#" "m4_17656_n2192#"
+merge "m4_17656_n2192#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_24/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_24/m3_0_1#" "m3_11459_n2222#"
+merge "m3_11459_n2222#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_7/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_7/m3_0_1#" "m4_11429_n3925#"
+merge "m4_11429_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_10/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_10/m2_5_0#" "m3_11384_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_86/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_43/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_43/m2_5_0#" "m3_30091_1393#"
+merge "m3_30091_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_16/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_16/m1_0_6#" "m2_30138_1401#"
+merge "m2_30138_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_87/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_87/m3_0_1#" "m4_30136_n1216#"
+merge "m4_30136_n1216#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_45/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_45/m3_0_1#" "m3_23139_n1246#"
+merge "m3_23139_n1246#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_44/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_44/m3_0_1#" "m4_23109_n3925#"
+merge "m4_23109_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_22/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_22/m2_5_0#" "m3_23064_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_72/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_36/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_36/m2_5_0#" "m3_32587_1393#"
+merge "m3_32587_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_12/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_12/m1_0_6#" "m2_32634_1401#"
+merge "m2_32634_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_73/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_73/m3_0_1#" "m4_32632_n484#"
+merge "m4_32632_n484#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_29/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_29/m3_0_1#" "m3_25475_n514#"
+merge "m3_25475_n514#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_28/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_28/m3_0_1#" "m4_25445_n3925#"
+merge "m4_25445_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_14/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_14/m2_5_0#" "m3_25400_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_70/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_35/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_35/m2_5_0#" "m3_27595_1393#"
+merge "m3_27595_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_11/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_11/m1_0_6#" "m2_27642_1401#"
+merge "m2_27642_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_71/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_71/m3_0_1#" "m4_27640_n1704#"
+merge "m4_27640_n1704#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_69/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_69/m3_0_1#" "m3_20803_n1734#"
+merge "m3_20803_n1734#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_68/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_68/m3_0_1#" "m4_20773_n3925#"
+merge "m4_20773_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_34/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_34/m2_5_0#" "m3_20728_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_134/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_67/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_67/m2_5_0#" "m3_52555_1393#"
+merge "m3_52555_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_29/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_29/m1_0_6#" "m2_52602_1401#"
+merge "m2_52602_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_135/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_135/m3_0_1#" "m4_52600_n2680#"
+merge "m4_52600_n2680#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_133/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_133/m3_0_1#" "m3_44163_n2710#"
+merge "m3_44163_n2710#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_132/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_132/m3_0_1#" "m4_44133_n3925#"
+merge "m4_44133_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_66/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_66/m2_5_0#" "m3_44088_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_12/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_5/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_5/m2_5_0#" "m3_15115_1393#"
+merge "m3_15115_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_0/m1_0_6#" "m2_15162_1401#"
+merge "m2_15162_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_13/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_13/m3_0_1#" "m4_15160_n728#"
+merge "m4_15160_n728#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_11/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_11/m3_0_1#" "m3_9123_n758#"
+merge "m3_9123_n758#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_10/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_10/m3_0_1#" "m4_9093_n3925#"
+merge "m4_9093_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_4/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_4/m2_5_0#" "m3_9048_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_60/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_30/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_30/m2_5_0#" "m3_21355_1393#"
+merge "m3_21355_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_8/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_8/m1_0_6#" "m2_21402_1401#"
+merge "m2_21402_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_61/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_61/m3_0_1#" "m4_21400_n1460#"
+merge "m4_21400_n1460#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_23/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_23/m3_0_1#" "m3_14963_n1490#"
+merge "m3_14963_n1490#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_22/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_22/m3_0_1#" "m4_14933_n3925#"
+merge "m4_14933_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_11/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_11/m2_5_0#" "m3_14888_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_46/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_25/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_25/m2_5_0#" "m3_18859_1393#"
+merge "m3_18859_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_5/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_5/m1_0_6#" "m2_18906_1401#"
+merge "m2_18906_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_51/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_51/m3_0_1#" "m4_18904_n1948#"
+merge "m4_18904_n1948#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_1/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_1/m3_0_1#" "m3_12627_n1978#"
+merge "m3_12627_n1978#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_0/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_0/m3_0_1#" "m4_12597_n3925#"
+merge "m4_12597_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_0/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_0/m2_5_0#" "m3_12552_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_63/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_32/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_32/m2_5_0#" "m3_25099_1393#"
+merge "m3_25099_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_9/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_9/m1_0_6#" "m2_25146_1401#"
+merge "m2_25146_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_64/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_64/m3_0_1#" "m4_25144_n2192#"
+merge "m4_25144_n2192#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_62/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_62/m3_0_1#" "m3_18467_n2222#"
+merge "m3_18467_n2222#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_59/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_59/m3_0_1#" "m4_18437_n3925#"
+merge "m4_18437_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_31/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_31/m2_5_0#" "m3_18392_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_122/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_61/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_61/m2_5_0#" "m3_48811_1393#"
+merge "m3_48811_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_24/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_24/m1_0_6#" "m2_48858_1401#"
+merge "m2_48858_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_123/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_123/m3_0_1#" "m4_48856_n1460#"
+merge "m4_48856_n1460#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_121/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_121/m3_0_1#" "m3_40659_n1490#"
+merge "m3_40659_n1490#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_120/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_120/m3_0_1#" "m4_40629_n3925#"
+merge "m4_40629_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_60/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_60/m2_5_0#" "m3_40584_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_5/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_2/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_2/m2_5_0#" "m3_13582_273#"
+merge "m3_13582_273#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_6/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_6/m3_0_1#" "m4_13627_n1460#"
+merge "m4_13627_n1460#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_4/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_4/m3_0_1#" "m3_3283_n1490#"
+merge "m3_3283_n1490#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_3/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_3/m3_0_1#" "m4_3253_n3925#"
+merge "m4_3253_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_1/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_1/m2_5_0#" "m3_3208_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_49/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_24/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_24/m2_5_0#" "m3_22603_1393#"
+merge "m3_22603_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_4/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_4/m1_0_6#" "m2_22650_1401#"
+merge "m2_22650_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_50/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_50/m3_0_1#" "m4_22648_n1216#"
+merge "m4_22648_n1216#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_48/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_48/m3_0_1#" "m3_16131_n1246#"
+merge "m3_16131_n1246#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_47/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_47/m3_0_1#" "m4_16101_n3925#"
+merge "m4_16101_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_23/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_23/m2_5_0#" "m3_16056_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_94/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_47/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_47/m2_5_0#" "m3_40075_1393#"
+merge "m3_40075_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_18/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_18/m1_0_6#" "m2_40122_1401#"
+merge "m2_40122_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_95/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_95/m3_0_1#" "m4_40120_n1460#"
+merge "m4_40120_n1460#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_93/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_93/m3_0_1#" "m3_32483_n1490#"
+merge "m3_32483_n1490#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_92/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_92/m3_0_1#" "m4_32453_n3925#"
+merge "m4_32453_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_46/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_46/m2_5_0#" "m3_32408_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_126/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_63/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_63/m2_5_0#" "m3_46315_1393#"
+merge "m3_46315_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_26/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_26/m1_0_6#" "m2_46362_1401#"
+merge "m2_46362_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_127/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_127/m3_0_1#" "m4_46360_n1948#"
+merge "m4_46360_n1948#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_108/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_108/m3_0_1#" "m3_38323_n1978#"
+merge "m3_38323_n1978#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_107/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_107/m3_0_1#" "m4_38293_n3925#"
+merge "m4_38293_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_53/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_53/m2_5_0#" "m3_38248_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_17/m2_5_0#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_67/m3_0_1#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_67/m3_0_1#" "m3_23566_273#"
+merge "m3_23566_273#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_34/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_34/m3_0_1#" "m4_23611_n2924#"
+merge "m4_23611_n2924#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_9/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_9/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_3/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_3/m2_5_0#" "m3_4376_n3957#"
+merge "m3_4376_n3957#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_21/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_21/m3_0_1#" "m4_4421_n3925#"
+merge "m4_4421_n3925#" "m3_4451_n2954#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_96/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_48/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_48/m2_5_0#" "m3_28843_1393#"
+merge "m3_28843_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_19/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_19/m1_0_6#" "m2_28890_1401#"
+merge "m2_28890_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_97/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_97/m3_0_1#" "m4_28888_n1460#"
+merge "m4_28888_n1460#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_57/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_57/m3_0_1#" "m3_21971_n1490#"
+merge "m3_21971_n1490#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_56/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_56/m3_0_1#" "m4_21941_n3925#"
+merge "m4_21941_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_29/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_29/m2_5_0#" "m3_21896_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_42/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_21/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_21/m2_5_0#" "m3_26347_1393#"
+merge "m3_26347_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_3/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_3/m1_0_6#" "m2_26394_1401#"
+merge "m2_26394_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_43/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_43/m3_0_1#" "m4_26392_n1948#"
+merge "m4_26392_n1948#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_41/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_41/m3_0_1#" "m3_19635_n1978#"
+merge "m3_19635_n1978#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_40/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_40/m3_0_1#" "m4_19605_n3925#"
+merge "m4_19605_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_20/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_20/m2_5_0#" "m3_19560_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_105/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_52/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_52/m2_5_0#" "m3_38827_1393#"
+merge "m3_38827_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_20/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_20/m1_0_6#" "m2_38874_1401#"
+merge "m2_38874_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_106/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_106/m3_0_1#" "m4_38872_n1704#"
+merge "m4_38872_n1704#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_104/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_104/m3_0_1#" "m3_31315_n1734#"
+merge "m3_31315_n1734#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_103/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_103/m3_0_1#" "m4_31285_n3925#"
+merge "m4_31285_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_51/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_51/m2_5_0#" "m3_31240_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_128/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_64/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_64/m2_5_0#" "m3_45067_1393#"
+merge "m3_45067_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_27/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_27/m1_0_6#" "m2_45114_1401#"
+merge "m2_45114_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_129/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_129/m3_0_1#" "m4_45112_n2192#"
+merge "m4_45112_n2192#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_80/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_80/m3_0_1#" "m3_37155_n2222#"
+merge "m3_37155_n2222#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_79/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_79/m3_0_1#" "m4_37125_n3925#"
+merge "m4_37125_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_39/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_39/m2_5_0#" "m3_37080_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_89/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_44/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_44/m2_5_0#" "m3_36331_1393#"
+merge "m3_36331_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_17/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_17/m1_0_6#" "m2_36378_1401#"
+merge "m2_36378_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_90/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_90/m3_0_1#" "m4_36376_n2192#"
+merge "m4_36376_n2192#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_88/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_88/m3_0_1#" "m3_28979_n2222#"
+merge "m3_28979_n2222#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_85/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_85/m3_0_1#" "m4_28949_n3925#"
+merge "m4_28949_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_42/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_42/m2_5_0#" "m3_28904_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_116/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_58/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_58/m2_5_0#" "m3_50059_1393#"
+merge "m3_50059_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_22/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_22/m1_0_6#" "m2_50106_1401#"
+merge "m2_50106_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_117/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_117/m3_0_1#" "m4_50104_n1216#"
+merge "m4_50104_n1216#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_115/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_115/m3_0_1#" "m3_41827_n1246#"
+merge "m3_41827_n1246#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_114/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_114/m3_0_1#" "m4_41797_n3925#"
+merge "m4_41797_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_57/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_57/m2_5_0#" "m3_41752_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_118/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_59/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_59/m2_5_0#" "m3_41323_1393#"
+merge "m3_41323_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_23/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_23/m1_0_6#" "m2_41370_1401#"
+merge "m2_41370_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_119/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_119/m3_0_1#" "m4_41368_n1216#"
+merge "m4_41368_n1216#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_83/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_83/m3_0_1#" "m3_33651_n1246#"
+merge "m3_33651_n1246#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_82/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_82/m3_0_1#" "m4_33621_n3925#"
+merge "m4_33621_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_41/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_41/m2_5_0#" "m3_33576_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_110/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_54/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_54/m2_5_0#" "m3_35083_1393#"
+merge "m3_35083_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_21/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_21/m1_0_6#" "m2_35130_1401#"
+merge "m2_35130_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_81/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_81/m3_0_1#" "m4_35128_n2436#"
+merge "m4_35128_n2436#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_37/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_37/m3_0_1#" "m3_27811_n2466#"
+merge "m3_27811_n2466#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_36/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_36/m3_0_1#" "m4_27781_n3925#"
+merge "m4_27781_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_18/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_18/m2_5_0#" "m3_27736_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_74/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_37/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_37/m2_5_0#" "m3_31339_1393#"
+merge "m3_31339_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_13/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_13/m1_0_6#" "m2_31386_1401#"
+merge "m2_31386_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_75/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_75/m3_0_1#" "m4_31384_n728#"
+merge "m4_31384_n728#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_33/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_33/m3_0_1#" "m3_24307_n758#"
+merge "m3_24307_n758#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_32/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_32/m3_0_1#" "m4_24277_n3925#"
+merge "m4_24277_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_16/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_16/m2_5_0#" "m3_24232_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_40/m2_5_0#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_15/m1_0_6#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_15/m1_0_6#" "m2_33882_1401#"
+merge "m2_33882_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_109/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_109/m3_0_1#" "m3_33835_1393#"
+merge "m3_33835_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_84/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_84/m3_0_1#" "m4_33880_n2924#"
+merge "m4_33880_n2924#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_35/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_35/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_19/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_19/m2_5_0#" "m3_26568_n3957#"
+merge "m3_26568_n3957#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_38/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_38/m3_0_1#" "m4_26613_n3925#"
+merge "m4_26613_n3925#" "m3_26643_n2954#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_76/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_38/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_38/m2_5_0#" "m3_33550_273#"
+merge "m3_33550_273#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_77/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_77/m3_0_1#" "m4_33595_n972#"
+merge "m4_33595_n972#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_15/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_15/m3_0_1#" "m3_5619_n1002#"
+merge "m3_5619_n1002#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_14/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_14/m3_0_1#" "m4_5589_n3925#"
+merge "m4_5589_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_6/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_6/m2_5_0#" "m3_5544_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_142/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_71/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_71/m2_5_0#" "m3_42571_1393#"
+merge "m3_42571_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_31/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_31/m1_0_6#" "m2_42618_1401#"
+merge "m2_42618_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_143/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_143/m3_0_1#" "m4_42616_n2924#"
+merge "m4_42616_n2924#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_101/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_101/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_50/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_50/m2_5_0#" "m3_34744_n3957#"
+merge "m3_34744_n3957#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_102/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_102/m3_0_1#" "m4_34789_n3925#"
+merge "m4_34789_n3925#" "m3_34819_n2954#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_30/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_15/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_15/m2_5_0#" "m3_20107_1393#"
+merge "m3_20107_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_2/m1_0_6#" "m2_20154_1401#"
+merge "m2_20154_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_31/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_31/m3_0_1#" "m4_20152_n1704#"
+merge "m4_20152_n1704#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_26/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_26/m3_0_1#" "m3_13795_n1734#"
+merge "m3_13795_n1734#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_25/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_25/m3_0_1#" "m4_13765_n3925#"
+merge "m4_13765_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_12/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_12/m2_5_0#" "m3_13720_n3957#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_140/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_70/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_70/m2_5_0#" "m3_51307_1393#"
+merge "m3_51307_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_30/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_30/m1_0_6#" "m2_51354_1401#"
+merge "m2_51354_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_141/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_141/m3_0_1#" "m4_51352_n2924#"
+merge "m4_51352_n2924#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_138/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_138/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_69/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_69/m2_5_0#" "m3_42920_n3957#"
+merge "m3_42920_n3957#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_139/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_139/m3_0_1#" "m4_42965_n3925#"
+merge "m4_42965_n3925#" "m3_42995_n2954#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_53/m3_0_1#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_27/m2_5_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_27/m2_5_0#" "m3_23851_1393#"
+merge "m3_23851_1393#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_6/m1_0_6#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_19_6/m1_0_6#" "m2_23898_1401#"
+merge "m2_23898_1401#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_54/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_54/m3_0_1#" "m4_23896_n2436#"
+merge "m4_23896_n2436#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_52/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_52/m3_0_1#" "m3_17299_n2466#"
+merge "m3_17299_n2466#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_39/m3_0_1#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_34_39/m3_0_1#" "m4_17269_n3925#"
+merge "m4_17269_n3925#" "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_26/m2_5_0#"
+merge "sky130_sram_1kbyte_1rw1r_32x256_8_contact_7_26/m2_5_0#" "m3_17224_n3957#"

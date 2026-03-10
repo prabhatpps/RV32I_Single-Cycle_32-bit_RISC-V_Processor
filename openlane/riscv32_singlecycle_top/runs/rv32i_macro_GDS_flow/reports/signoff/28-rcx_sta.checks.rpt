@@ -1,0 +1,358 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Typical Corner ===================================
+
+Startpoint: u_pc_reg._144_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: u_pc_reg._164_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock source latency
+                  0.00    0.00    0.00 ^ clk (in)
+     3    0.19                           clk (net)
+                  0.04    0.02    0.02 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.11    0.18    0.20 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+     6    0.10                           clknet_0_clk (net)
+                  0.11    0.00    0.21 ^ clkbuf_2_0_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+                  0.37    0.33    0.53 ^ clkbuf_2_0_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+     8    0.22                           clknet_2_0_0_clk (net)
+                  0.37    0.03    0.56 ^ u_pc_reg._144_/CLK (sky130_fd_sc_hd__dfxtp_4)
+                  0.48    0.74    1.31 ^ u_pc_reg._144_/Q (sky130_fd_sc_hd__dfxtp_4)
+    13    0.17                           u_imem.addr[10] (net)
+                  0.48    0.01    1.32 ^ u_pc_next_logic._1079_/A (sky130_fd_sc_hd__xnor2_1)
+                  0.14    0.21    1.53 v u_pc_next_logic._1079_/Y (sky130_fd_sc_hd__xnor2_1)
+     3    0.01                           u_pc_next_logic._0324_ (net)
+                  0.14    0.00    1.53 v u_pc_next_logic._1129_/A (sky130_fd_sc_hd__or3_1)
+                  0.09    0.43    1.96 v u_pc_next_logic._1129_/X (sky130_fd_sc_hd__or3_1)
+     2    0.01                           u_pc_next_logic._0372_ (net)
+                  0.09    0.00    1.96 v u_pc_next_logic._1130_/B (sky130_fd_sc_hd__or4bb_1)
+                  0.12    0.54    2.50 v u_pc_next_logic._1130_/X (sky130_fd_sc_hd__or4bb_1)
+     2    0.01                           u_pc_next_logic._0373_ (net)
+                  0.12    0.00    2.50 v u_pc_next_logic._1231_/B1 (sky130_fd_sc_hd__a211o_2)
+                  0.14    0.44    2.94 v u_pc_next_logic._1231_/X (sky130_fd_sc_hd__a211o_2)
+     3    0.04                           u_pc_next_logic._0470_ (net)
+                  0.14    0.01    2.95 v u_pc_next_logic._1431_/A2 (sky130_fd_sc_hd__a211o_1)
+                  0.09    0.37    3.32 v u_pc_next_logic._1431_/X (sky130_fd_sc_hd__a211o_1)
+     3    0.01                           u_pc_next_logic._0662_ (net)
+                  0.09    0.00    3.32 v u_pc_next_logic._1535_/A2 (sky130_fd_sc_hd__a2111o_1)
+                  0.10    0.47    3.79 v u_pc_next_logic._1535_/X (sky130_fd_sc_hd__a2111o_1)
+     2    0.01                           u_pc_next_logic._0762_ (net)
+                  0.10    0.00    3.79 v u_pc_next_logic._1542_/A1 (sky130_fd_sc_hd__a21o_1)
+                  0.09    0.23    4.03 v u_pc_next_logic._1542_/X (sky130_fd_sc_hd__a21o_1)
+     4    0.02                           u_pc_next_logic._0769_ (net)
+                  0.09    0.00    4.03 v u_pc_next_logic._1578_/A2 (sky130_fd_sc_hd__a31o_1)
+                  0.07    0.26    4.28 v u_pc_next_logic._1578_/X (sky130_fd_sc_hd__a31o_1)
+     2    0.01                           u_pc_next_logic._0032_ (net)
+                  0.07    0.00    4.29 v u_pc_next_logic._1579_/B (sky130_fd_sc_hd__xor2_1)
+                  0.05    0.14    4.43 v u_pc_next_logic._1579_/X (sky130_fd_sc_hd__xor2_1)
+     1    0.00                           u_pc_next_logic._0033_ (net)
+                  0.05    0.00    4.43 v u_pc_next_logic._1580_/A1 (sky130_fd_sc_hd__mux2_1)
+                  0.09    0.34    4.77 v u_pc_next_logic._1580_/X (sky130_fd_sc_hd__mux2_1)
+     1    0.01                           u_pc_next_logic._0034_ (net)
+                  0.09    0.00    4.77 v u_pc_next_logic._1588_/A2 (sky130_fd_sc_hd__a22o_2)
+                  0.14    0.38    5.15 v u_pc_next_logic._1588_/X (sky130_fd_sc_hd__a22o_2)
+     1    0.05                           u_pc_next_logic._0042_ (net)
+                  0.14    0.01    5.16 v u_pc_next_logic._1589_/B1 (sky130_fd_sc_hd__a2bb2o_1)
+                  0.05    0.30    5.46 v u_pc_next_logic._1589_/X (sky130_fd_sc_hd__a2bb2o_1)
+     1    0.00                           u_pc_next_logic.pc_next[30] (net)
+                  0.05    0.00    5.46 v u_pc_reg._130_/B (sky130_fd_sc_hd__and2_1)
+                  0.03    0.15    5.61 v u_pc_reg._130_/X (sky130_fd_sc_hd__and2_1)
+     1    0.00                           u_pc_reg._047_ (net)
+                  0.03    0.00    5.61 v u_pc_reg._131_/A (sky130_fd_sc_hd__clkbuf_1)
+                  0.03    0.08    5.69 v u_pc_reg._131_/X (sky130_fd_sc_hd__clkbuf_1)
+     1    0.00                           u_pc_reg._030_ (net)
+                  0.03    0.00    5.69 v u_pc_reg._164_/D (sky130_fd_sc_hd__dfxtp_4)
+                                  5.69   data arrival time
+
+                         20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock source latency
+                  0.00    0.00   20.00 ^ clk (in)
+     3    0.19                           clk (net)
+                  0.04    0.02   20.02 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.11    0.18   20.20 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+     6    0.10                           clknet_0_clk (net)
+                  0.11    0.00   20.21 ^ clkbuf_2_3_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+                  0.41    0.34   20.54 ^ clkbuf_2_3_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+     7    0.24                           clknet_2_3_0_clk (net)
+                  0.42    0.06   20.60 ^ u_pc_reg._164_/CLK (sky130_fd_sc_hd__dfxtp_4)
+                         -0.20   20.40   clock uncertainty
+                          0.00   20.40   clock reconvergence pessimism
+                         -0.02   20.38   library setup time
+                                 20.38   data required time
+-----------------------------------------------------------------------------
+                                 20.38   data required time
+                                 -5.69   data arrival time
+-----------------------------------------------------------------------------
+                                 14.69   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Typical Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 134 unannotated drivers.
+ _438__464/HI
+ _439__467/HI
+ _441__468/HI
+ _443__470/HI
+ _444__471/HI
+ _447__474/HI
+ _448__475/HI
+ _452__477/HI
+ _453__478/HI
+ _455__472/HI
+ _458__481/HI
+ _459__482/HI
+ _463__486/HI
+ _464__483/HI
+ _467__489/HI
+ _468__487/HI
+ _472__490/HI
+ _473__479/HI
+ _473__484/HI
+ _475__491/HI
+ _477__493/HI
+ _478__494/HI
+ _481__497/HI
+ _482__498/HI
+ _486__502/HI
+ _487__499/HI
+ _490__506/HI
+ _492__503/HI
+ _494__495/HI
+ _494__500/HI
+ _496__504/HI
+ _496__507/HI
+ _497__508/HI
+ _628__465/HI
+ u_dmem.u_sram_405/HI
+ u_dmem.u_sram_406/HI
+ u_dmem.u_sram_407/HI
+ u_dmem.u_sram_408/HI
+ u_dmem.u_sram_409/HI
+ u_dmem.u_sram_410/HI
+ u_dmem.u_sram_411/HI
+ u_dmem.u_sram_412/HI
+ u_dmem.u_sram_524/LO
+ u_dmem.u_sram_525/LO
+ u_dmem.u_sram_526/LO
+ u_dmem.u_sram_527/LO
+ u_dmem.u_sram_528/LO
+ u_imem.u_sram_413/HI
+ u_imem.u_sram_414/HI
+ u_imem.u_sram_415/HI
+ u_imem.u_sram_416/HI
+ u_imem.u_sram_417/HI
+ u_imem.u_sram_418/HI
+ u_imem.u_sram_419/HI
+ u_imem.u_sram_420/HI
+ u_imem.u_sram_421/HI
+ u_imem.u_sram_422/HI
+ u_imem.u_sram_423/HI
+ u_imem.u_sram_424/HI
+ u_imem.u_sram_425/HI
+ u_imem.u_sram_426/HI
+ u_imem.u_sram_427/HI
+ u_imem.u_sram_428/HI
+ u_imem.u_sram_429/HI
+ u_imem.u_sram_430/HI
+ u_imem.u_sram_431/HI
+ u_imem.u_sram_432/HI
+ u_imem.u_sram_433/HI
+ u_imem.u_sram_434/HI
+ u_imem.u_sram_435/HI
+ u_imem.u_sram_436/HI
+ u_imem.u_sram_437/HI
+ u_imem.u_sram_438/HI
+ u_imem.u_sram_439/HI
+ u_imem.u_sram_440/HI
+ u_imem.u_sram_441/HI
+ u_imem.u_sram_442/HI
+ u_imem.u_sram_443/HI
+ u_imem.u_sram_444/HI
+ u_imem.u_sram_445/HI
+ u_imem.u_sram_446/HI
+ u_imem.u_sram_447/HI
+ u_imem.u_sram_448/HI
+ u_imem.u_sram_449/HI
+ u_imem.u_sram_450/HI
+ u_imem.u_sram_451/HI
+ u_imem.u_sram_452/HI
+ u_imem.u_sram_453/HI
+ u_imem.u_sram_454/HI
+ u_imem.u_sram_455/HI
+ u_imem.u_sram_456/HI
+ u_imem.u_sram_457/HI
+ u_imem.u_sram_529/LO
+ u_imem.u_sram_530/LO
+ u_pc_next_logic._0857__460/HI
+ u_pc_next_logic._0858__458/HI
+ u_pc_next_logic._0866__461/HI
+ u_pc_next_logic._0868__462/HI
+ u_pc_next_logic._0874__459/HI
+ u_pc_next_logic._0895__463/HI
+ u_regfile.u_sram_rs1_510/HI
+ u_regfile.u_sram_rs1_511/HI
+ u_regfile.u_sram_rs1_512/HI
+ u_regfile.u_sram_rs1_513/HI
+ u_regfile.u_sram_rs1_514/HI
+ u_regfile.u_sram_rs1_515/HI
+ u_regfile.u_sram_rs1_516/HI
+ u_regfile.u_sram_rs1_531/LO
+ u_regfile.u_sram_rs1_532/LO
+ u_regfile.u_sram_rs1_533/LO
+ u_regfile.u_sram_rs1_534/LO
+ u_regfile.u_sram_rs2_517/HI
+ u_regfile.u_sram_rs2_518/HI
+ u_regfile.u_sram_rs2_519/HI
+ u_regfile.u_sram_rs2_520/HI
+ u_regfile.u_sram_rs2_521/HI
+ u_regfile.u_sram_rs2_522/HI
+ u_regfile.u_sram_rs2_523/HI
+ u_regfile.u_sram_rs2_535/LO
+ u_regfile.u_sram_rs2_536/LO
+ u_regfile.u_sram_rs2_537/LO
+ u_regfile.u_sram_rs2_538/LO
+ u_wb_mux._096__466/HI
+ u_wb_mux._101__469/HI
+ u_wb_mux._104__473/HI
+ u_wb_mux._107__476/HI
+ u_wb_mux._110__480/HI
+ u_wb_mux._113__485/HI
+ u_wb_mux._116__488/HI
+ u_wb_mux._119__492/HI
+ u_wb_mux._122__496/HI
+ u_wb_mux._125__501/HI
+ u_wb_mux._132__505/HI
+ u_wb_mux._136__509/HI
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There is 1 input port missing set_input_delay.
+  rst_n
+Warning: There are 96 unconstrained endpoints.
+  dbg_instr[0]
+  dbg_instr[10]
+  dbg_instr[11]
+  dbg_instr[12]
+  dbg_instr[13]
+  dbg_instr[14]
+  dbg_instr[15]
+  dbg_instr[16]
+  dbg_instr[17]
+  dbg_instr[18]
+  dbg_instr[19]
+  dbg_instr[1]
+  dbg_instr[20]
+  dbg_instr[21]
+  dbg_instr[22]
+  dbg_instr[23]
+  dbg_instr[24]
+  dbg_instr[25]
+  dbg_instr[26]
+  dbg_instr[27]
+  dbg_instr[28]
+  dbg_instr[29]
+  dbg_instr[2]
+  dbg_instr[30]
+  dbg_instr[31]
+  dbg_instr[3]
+  dbg_instr[4]
+  dbg_instr[5]
+  dbg_instr[6]
+  dbg_instr[7]
+  dbg_instr[8]
+  dbg_instr[9]
+  dbg_pc_current[0]
+  dbg_pc_current[10]
+  dbg_pc_current[11]
+  dbg_pc_current[12]
+  dbg_pc_current[13]
+  dbg_pc_current[14]
+  dbg_pc_current[15]
+  dbg_pc_current[16]
+  dbg_pc_current[17]
+  dbg_pc_current[18]
+  dbg_pc_current[19]
+  dbg_pc_current[1]
+  dbg_pc_current[20]
+  dbg_pc_current[21]
+  dbg_pc_current[22]
+  dbg_pc_current[23]
+  dbg_pc_current[24]
+  dbg_pc_current[25]
+  dbg_pc_current[26]
+  dbg_pc_current[27]
+  dbg_pc_current[28]
+  dbg_pc_current[29]
+  dbg_pc_current[2]
+  dbg_pc_current[30]
+  dbg_pc_current[31]
+  dbg_pc_current[3]
+  dbg_pc_current[4]
+  dbg_pc_current[5]
+  dbg_pc_current[6]
+  dbg_pc_current[7]
+  dbg_pc_current[8]
+  dbg_pc_current[9]
+  dbg_wb_data[0]
+  dbg_wb_data[10]
+  dbg_wb_data[11]
+  dbg_wb_data[12]
+  dbg_wb_data[13]
+  dbg_wb_data[14]
+  dbg_wb_data[15]
+  dbg_wb_data[16]
+  dbg_wb_data[17]
+  dbg_wb_data[18]
+  dbg_wb_data[19]
+  dbg_wb_data[1]
+  dbg_wb_data[20]
+  dbg_wb_data[21]
+  dbg_wb_data[22]
+  dbg_wb_data[23]
+  dbg_wb_data[24]
+  dbg_wb_data[25]
+  dbg_wb_data[26]
+  dbg_wb_data[27]
+  dbg_wb_data[28]
+  dbg_wb_data[29]
+  dbg_wb_data[2]
+  dbg_wb_data[30]
+  dbg_wb_data[31]
+  dbg_wb_data[3]
+  dbg_wb_data[4]
+  dbg_wb_data[5]
+  dbg_wb_data[6]
+  dbg_wb_data[7]
+  dbg_wb_data[8]
+  dbg_wb_data[9]

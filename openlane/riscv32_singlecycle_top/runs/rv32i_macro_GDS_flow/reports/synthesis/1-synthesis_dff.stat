@@ -1,0 +1,252 @@
+
+65. Printing statistics.
+
+=== $paramod\dmem\DEPTH=s32'00000000000000000000000100000000 ===
+
+   Number of wires:                  9
+   Number of wire bits:            133
+   Number of public wires:           9
+   Number of public wire bits:     133
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 35
+     $_AND_                         32
+     $_NOR_                          1
+     $_NOT_                          1
+     sky130_sram_1kbyte_1rw1r_32x256_8      1
+
+=== $paramod\imem\MEM_DEPTH_WORDS=s32'00000000000000000000000100000000 ===
+
+   Number of wires:                  3
+   Number of wire bits:             65
+   Number of public wires:           3
+   Number of public wire bits:      65
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     sky130_sram_1kbyte_1rw1r_32x256_8      1
+
+=== alu ===
+
+   Number of wires:               1702
+   Number of wire bits:           1798
+   Number of public wires:           8
+   Number of public wire bits:     104
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1729
+     $_ANDNOT_                     667
+     $_AND_                         60
+     $_MUX_                        310
+     $_NAND_                        76
+     $_NOR_                         43
+     $_NOT_                         33
+     $_ORNOT_                       76
+     $_OR_                         305
+     $_XNOR_                        48
+     $_XOR_                        111
+
+=== alu_control ===
+
+   Number of wires:                 47
+   Number of wire bits:             59
+   Number of public wires:           4
+   Number of public wire bits:      16
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 47
+     $_ANDNOT_                      20
+     $_AND_                          3
+     $_MUX_                          4
+     $_NAND_                         2
+     $_NOR_                          1
+     $_NOT_                          2
+     $_ORNOT_                        2
+     $_OR_                          13
+
+=== branch_unit ===
+
+   Number of wires:                185
+   Number of wire bits:            249
+   Number of public wires:           4
+   Number of public wire bits:      68
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                182
+     $_ANDNOT_                      90
+     $_AND_                          3
+     $_MUX_                          3
+     $_NAND_                         2
+     $_NOR_                          1
+     $_NOT_                          1
+     $_ORNOT_                       34
+     $_OR_                          15
+     $_XNOR_                        12
+     $_XOR_                         21
+
+=== decoder_controller ===
+
+   Number of wires:                 45
+   Number of wire bits:             62
+   Number of public wires:          13
+   Number of public wire bits:      30
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 45
+     $_ANDNOT_                      17
+     $_AND_                          1
+     $_NAND_                         2
+     $_NOR_                          2
+     $_ORNOT_                        4
+     $_OR_                          19
+
+=== imm_gen ===
+
+   Number of wires:                  6
+   Number of wire bits:            192
+   Number of public wires:           6
+   Number of public wire bits:     192
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  0
+
+=== pc_next_logic ===
+
+   Number of wires:                786
+   Number of wire bits:           1003
+   Number of public wires:          11
+   Number of public wire bits:     228
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                837
+     $_ANDNOT_                     156
+     $_AND_                         54
+     $_MUX_                         95
+     $_NAND_                        68
+     $_NOR_                         93
+     $_NOT_                          3
+     $_ORNOT_                       21
+     $_OR_                         130
+     $_XNOR_                       105
+     $_XOR_                        112
+
+=== pc_reg ===
+
+   Number of wires:                 36
+   Number of wire bits:             98
+   Number of public wires:           4
+   Number of public wire bits:      66
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 64
+     $_MUX_                         32
+     sky130_fd_sc_hd__dfxtp_2       32
+
+=== regfile ===
+
+   Number of wires:                 25
+   Number of wire bits:            192
+   Number of public wires:          11
+   Number of public wire bits:     178
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 80
+     $_ANDNOT_                      67
+     $_NAND_                         1
+     $_NOR_                          3
+     $_OR_                           7
+     sky130_sram_1kbyte_1rw1r_32x256_8      2
+
+=== riscv32_singlecycle_top ===
+
+   Number of wires:                261
+   Number of wire bits:            794
+   Number of public wires:          35
+   Number of public wire bits:     568
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                333
+     $_ANDNOT_                      49
+     $_AND_                         14
+     $_MUX_                         96
+     $_NAND_                        18
+     $_NOR_                         28
+     $_ORNOT_                        9
+     $_OR_                          45
+     $_XNOR_                        34
+     $_XOR_                         29
+     $paramod\dmem\DEPTH=s32'00000000000000000000000100000000      1
+     $paramod\imem\MEM_DEPTH_WORDS=s32'00000000000000000000000100000000      1
+     alu                             1
+     alu_control                     1
+     branch_unit                     1
+     decoder_controller              1
+     imm_gen                         1
+     pc_next_logic                   1
+     pc_reg                          1
+     regfile                         1
+     wb_mux                          1
+
+=== wb_mux ===
+
+   Number of wires:                308
+   Number of wire bits:            496
+   Number of public wires:           7
+   Number of public wire bits:     195
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                333
+     $_ANDNOT_                     253
+     $_AND_                          1
+     $_NAND_                         3
+     $_ORNOT_                       35
+     $_OR_                          41
+
+=== design hierarchy ===
+
+   riscv32_singlecycle_top           1
+     $paramod\dmem\DEPTH=s32'00000000000000000000000100000000      1
+     $paramod\imem\MEM_DEPTH_WORDS=s32'00000000000000000000000100000000      1
+     alu                             1
+     alu_control                     1
+     branch_unit                     1
+     decoder_controller              1
+     imm_gen                         1
+     pc_next_logic                   1
+     pc_reg                          1
+     regfile                         1
+     wb_mux                          1
+
+   Number of wires:               3413
+   Number of wire bits:           5141
+   Number of public wires:         115
+   Number of public wire bits:    1843
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3675
+     $_ANDNOT_                    1319
+     $_AND_                        168
+     $_MUX_                        540
+     $_NAND_                       172
+     $_NOR_                        172
+     $_NOT_                         40
+     $_ORNOT_                      181
+     $_OR_                         575
+     $_XNOR_                       199
+     $_XOR_                        273
+     sky130_fd_sc_hd__dfxtp_2       32
+     sky130_sram_1kbyte_1rw1r_32x256_8      4
+
